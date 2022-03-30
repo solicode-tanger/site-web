@@ -22,6 +22,7 @@
 	<link rel="stylesheet" href="css/one-page/css/et-line.css" type="text/css" />
 	<link rel="stylesheet" href="css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="css/youtube-overlay.css" type="text/css" />
 	<link rel="stylesheet" href="css/swiper.css" type="text/css" />
 
 	<!-- Photography Specific Stylesheet -->
@@ -253,8 +254,7 @@ data-bottom-top="background-position:0px 300px;" data-top-bottom="background-pos
 	<!-- Footer Script -->
 	<script src="js/functions.js"></script>
 
-    </div>
-    
+        
 		<!-- Footer -->
 		<footer id="footer" class="dark" data-scrollto-settings="{&quot;offset&quot;:100,&quot;speed&quot;:1250,&quot;easing&quot;:&quot;easeOutQuad&quot;}">
 
@@ -455,6 +455,45 @@ data-bottom-top="background-position:0px 300px;" data-top-bottom="background-pos
 		})();
 
 	</script>
+
+	<!-- Contact section end -->
+
+<script src="js/aos.js"></script>
+<script src="js/youtube-overlay.js"></script>
+<!-- script aos -->
+<script>
+    AOS.init();
+</script>
+<!-- video youtube -->
+<script>
+var img = $("#solicodevid ");
+var configObject = {
+sourceUrl: img.attr("data-videourl"),
+triggerElement: "#" + img.attr("id"),
+progressCallback: function() {
+  console.log("Callback Invoked.");
+}
+};
+
+var videoBuild = new YoutubeOverlayModule(configObject);
+videoBuild.activateDeployment();
+
+var img2 = $("#solicodevid2 ");
+var co = {
+sourceUrl: img2.attr("data-videourl"),
+triggerElement: "#" + img2.attr("id"),
+progressCallback: function() {
+  console.log("Callback Invoked.");
+}
+};
+
+var vide = new YoutubeOverlayModule(co);
+vide.activateDeployment();
+
+
+</script>
+
+    </div>
 
 </body>
 
