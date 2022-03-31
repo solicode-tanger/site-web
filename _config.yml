@@ -18,7 +18,12 @@ collections:
   activities:
     output: true
   slides:
-    output: false
+   output: false
+   formation : false
+   formation web : false
+   formation mobile : false
+   about : false
+
 
 # Build settings
 theme: minima
