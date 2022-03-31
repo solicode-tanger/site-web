@@ -109,78 +109,17 @@
     
     <!-- Document Wrappe -->
 	<div id="wrapper" class="clearfix">
-        ============================================= -->
+        	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Poppins:300,400,500,600,700|PT+Serif:400,400i&display=swap" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="style.css" type="text/css" />
+	<link rel="stylesheet" href="css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
 
+	<link rel="stylesheet" href="css/custom.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-
-	<!-- Page Title
-  ============================================= -->
-<section id="page-title" class="page-title-parallax page-title-dark include-header" style="padding: 400px 0; background-image: url('images/about/me-parallax.jpg'); background-size: cover; background-position: center center;" data-bottom-top="background-position:0px 500px;" data-top-bottom="background-position:0px -500px;">
-
-	<div class="container clearfix">
-		<h1>Titre</h1>
-			<span>Everything you need to know about our Company</span>
-			<span>Everything you need to know about our Company</span>
-			<span>Everything you need to know about our Company</span>
-			<a href="inscription.html" class="   button text-primary" style="background: #F2B705;">INSCRIPTION</a>
-	</div>
-							
-</section>
-	<!-- #page-title end -->
-
-	<section id="content">
-		<div class="content-wrap">
-									
-
-			<!-- card 1 -->
-
-			<div class="row align-items-stretch bottommargin-lg">
-
-				<div class="col-md-5 col-padding min-vh-75 order-md-last" style="background: url('images/team/8.jpg') center center no-repeat; background-size: cover;"></div>
-
-				<div class="col-md-7 col-padding" style="background-color: #F5F5F5;">
-					<div>	
-						<div class="heading-block">
-							<span class="before-heading color">Developer &amp; Evangelist</span>
-							<h3>Mary Jane</h3>
-						</div>
-
-						<div class="row col-mb-50">
-
-							<div class="col-lg-12">
-								<p>Employment respond committed meaningful fight against oppression social challenges rural legal aid governance. Meaningful work, implementation, process cooperation, campaign inspire.</p>
-								<p>Advancement, promising development John Lennon, our ambitions involvement underprivileged billionaire philanthropy save the world transform. Carbon rights maintain healthcare emergent, implementation inspire social change solve clean water livelihoods.</p>
-								<span class="countdown-row countdown-show3"><span class="countdown-section"><span class="countdown-amount">0</span><span class="countdown-period">Hours</span></span><span class="countdown-section"><span class="countdown-amount">0</span><span class="countdown-period">Minutes</span></span><span class="countdown-section"><span class="countdown-amount">0</span><span class="countdown-period">Seconds</span></span></span>
-
-							</div>
-
-						
-
-						</div>
-
-					</div>
-				</div>
-
-			</div>
-
-		</div>
-	</section>		
-	<!-- fin card 1 -->
-
-	<div id="countdown-ex1" class="countdown countdown-large coming-soon mx-auto mb-5 is-countdown" data-year="2021" style="max-width:700px;">
-		<span class="countdown-row countdown-show3">
-			<span class="countdown-section">
-				<span class="countdown-amount">0</span>
-				<span class="countdown-period">Hours</span>
-			</span><span class="countdown-section">
-				<span class="countdown-amount">0</span>
-				<span class="countdown-period">Minutes</span>
-			</span><span class="countdown-section">
-				<span class="countdown-amount">0</span>
-				<span class="countdown-period">Seconds</span>
-			</span>
-		</span>
-		</div>
 
 <!-- timeline -->
 		<!-- Content
@@ -345,7 +284,7 @@
 								<div class="grid-inner">
 									<div class="entry-image">
 										<a href="https://themeforest.net" class="entry-link" target="_blank">
-											Themeforest.net
+										Themeforest.net
 											<span>- https://themeforest.net</span>
 										</a>
 									</div>
@@ -556,11 +495,16 @@
 	============================================= -->
 	<div id="gotoTop" class="icon-angle-up"></div>
 
+	<!-- JavaScripts
+	============================================= -->
+	<script src="js/jquery.js"></script>
+    <script src="js/plugins.min.js"></script>
+	<script src="js/plugins.infinitescroll.js"></script>
 
+	<!-- Footer Scripts
+	============================================= -->
+	<script src="js/functions.js"></script>
 
-	
-	<!-- <script src="js/plugins.countdown.js"></script>
-	<script src="js/plugins.counter.js"></script>	 -->
 	<script>
 
 		jQuery(window).on( 'load', function(){
@@ -595,32 +539,7 @@
 		});
 
 	</script>
-<script>
 
-// countdown
-
-		
-window.SEMICOLON_runCounterInit = function( elCounter, elFormat ){
-	if( elFormat.comma == 'true' ) {
-
-		let reFormat	= '\\B(?=(\\d{'+ elFormat.places +'})+(?!\\d))',
-			regExp		= new RegExp( reFormat, "g" );
-
-		elCounter.find('span').countTo({
-			formatter: function (value, options) {
-				value = value.toFixed( options.decimals );
-				value = value.replace( regExp, elFormat.sep );
-				return value;
-			}
-		});
-	} else {
-		elCounter.find('span').countTo();
-	}
-};
-
-
-
-	</script>
 
 
 			
