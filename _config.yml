@@ -13,6 +13,11 @@ github_username:  jekyll
 
 destination: docs
 
+collections:
+  activities:
+    output: true
+  slides:
+    output: false
 
 # Build settings
 theme: minima
