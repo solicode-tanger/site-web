@@ -473,39 +473,3 @@ layout: default
         </div>
     </div>
 </section>
-<!-- Contact section end -->
-
-<script src="js/aos.js"></script>
-<script src="js/youtube-overlay.js"></script>
-<!-- script aos -->
-<script>
-    AOS.init();
-</script>
-<!-- video youtube -->
-<script>
-var img = $("#solicodevid ");
-var configObject = {
-sourceUrl: img.attr("data-videourl"),
-triggerElement: "#" + img.attr("id"),
-progressCallback: function() {
-  console.log("Callback Invoked.");
-}
-};
-
-var videoBuild = new YoutubeOverlayModule(configObject);
-videoBuild.activateDeployment();
-
-var img2 = $("#solicodevid2 ");
-var co = {
-sourceUrl: img2.attr("data-videourl"),
-triggerElement: "#" + img2.attr("id"),
-progressCallback: function() {
-  console.log("Callback Invoked.");
-}
-};
-
-var vide = new YoutubeOverlayModule(co);
-vide.activateDeployment();
-
-
-</script>
