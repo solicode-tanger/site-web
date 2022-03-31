@@ -3,10 +3,17 @@
 	"file": "main.css",
 	"sources": [
 		"main.scss",
+<<<<<<< HEAD
 		"../../../../../../../var/lib/gems/2.7.0/gems/minima-2.5.1/_sass/minima.scss",
 		"../../../../../../../var/lib/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_base.scss",
 		"../../../../../../../var/lib/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
 		"../../../../../../../var/lib/gems/2.7.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
+=======
+		"../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/minima-2.5.1/_sass/minima.scss",
+		"../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/minima-2.5.1/_sass/minima/_base.scss",
+		"../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/minima-2.5.1/_sass/minima/_layout.scss",
+		"../../../../../Ruby31-x64/lib/ruby/gems/3.1.0/gems/minima-2.5.1/_sass/minima/_syntax-highlighting.scss"
+>>>>>>> 1377680c85381a55a33c050327de77496701d156
 	],
 	"sourcesContent": [
 		"@import \"minima\";\n",
