@@ -2,8 +2,7 @@
 layout: default
 ---
 
-<!-- Slider
-		============================================= -->
+<!-- Slider -->
 {% for slide in site.slides  %}
 
 <section id="slider" class="slider-element dark min-vh-100 include-header"
@@ -16,39 +15,32 @@ layout: default
 
                     <div class="col-lg-6 col-md-6 text-center text-lg-left">
                         <h2 class="font-weight-bold nott " data-aos="fade-up" data-aos-duration="1000"
-                            style="font-size: 45px; letter-spacing: -1px;">{{ slide.title  }}</h2>
+                            style="font-size: 45px; letter-spacing: -1px;">{{slide.title}}</h2>
 
                         <div>
-                            <a href="{{ slide.action_link  }}" data-aos="fade-up" data-aos-duration="1500"
-                                class="button m-0 button-large bg-warning text-primary">INSCRIPTION <i
+                            <a href="{{slide.action_link}}" data-aos="fade-up" data-aos-duration="1500"
+                                class="button m-0 button-large bg-warning text-primary">INSCRIPTION<i
                                     class="icon-angle-right"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-
+<!-- Partners -->
         <div class="section-clients">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-7 d-flex flex-row">
-                        <div class="col text-center"><img src="images/sponcors/fondation-logo.svg"
-                                alt="Clients">
+                        {% for partner in site.partners  %}
+                        <div class="col text-center"><img src="{{partner.logo}}"
+                                alt="{{partner.description}}">
                         </div>
-                        <div class="col text-center"><img src="images/sponcors/ofppt-logo.svg"
-                                alt="Clients">
-                        </div>
-                        <div class="col text-center pt-ocp"><img src="images/sponcors/ocp-logo.png"
-                                alt="Clients">
-                        </div>
-                        <div class="col text-center pt-simplon"><img
-                                src="images/sponcors/simplon-logo.png" alt="Clients">
-                        </div>
+                        {% endfor %}
                     </div>
                 </div>
             </div>
         </div>
-
+<!-- Partners end -->
     </div>
 </section>
 {% endfor  %}
