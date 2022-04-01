@@ -282,7 +282,19 @@ title : formation web
 
 			</div>
 </section>
+<script src="{{site.baseurl}}/js/timeline.min.js"></script>
 
-
+<script>
+	timeline(document.querySelectorAll('.timeline'), {
+		forceVerticalMode: 700,
+		mode: 'horizontal',
+		verticalStartPosition: 'left',
+		visibleItems: 4
+	});
+</script>
+<!-- script aos   -->
+<script>
+	AOS.init();	
+</script>
 
 <!-- end rappel -->

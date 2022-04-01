@@ -30,6 +30,7 @@
 	<!-- Photography Specific Stylesheet -->
     <link rel="stylesheet" href="/site-web/demos/landing/landing.css" type="text/css" />
 	<link rel="stylesheet" href="/site-web/demos/photography/photography.css" type="text/css" />
+	<link rel="stylesheet" href="/site-web/demos/conference/conference.css" type="text/css" />
 	<link rel="stylesheet" href="/site-web/demos/photography/css/photography-addons.css" type="text/css" />
 	<!-- / -->
 
@@ -38,10 +39,7 @@
 	<link rel="stylesheet" href="/site-web/css/custom.css" type="text/css" />
 	<link rel="stylesheet" href="/site-web/css/colors.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<!-- script -->
-	<script src="/site-webjs/jquery.js"></script>
-	<script src="/site-webjs/plugins.infinitescroll.js"></script>
-	<!-- <script src="/site-web/js/plugins.min.js"></script> -->
+
 
 	
 	<!-- Document Title -->
@@ -391,8 +389,20 @@
 
 			</div>
 </section>
+<script src="/site-web/js/timeline.min.js"></script>
 
-
+<script>
+	timeline(document.querySelectorAll('.timeline'), {
+		forceVerticalMode: 700,
+		mode: 'horizontal',
+		verticalStartPosition: 'left',
+		visibleItems: 4
+	});
+</script>
+<!-- script aos   -->
+<script>
+	AOS.init();	
+</script>
 
 <!-- end rappel -->
 
@@ -529,7 +539,6 @@
 	<script src="/site-web/js/plugins.min.js"></script>
 	<script src="https://maps.google.com/maps/api/js?key=YOUR-API-KEY"></script>
 	<script src="/site-web/demos/photography/js/photography-addons.js"></script>
-	<script src="/site-web/js/timeline.min.js"></script>
 
 	
 
@@ -637,18 +646,7 @@ vide.activateDeployment();
 </script>
 
 
-<script>
-	timeline(document.querySelectorAll('.timeline'), {
-		forceVerticalMode: 700,
-		mode: 'horizontal',
-		verticalStartPosition: 'left',
-		visibleItems: 4
-	});
-</script>
-<!-- script aos   -->
-<script>
-	AOS.init();
-</script>
+
 
     </div>
 
