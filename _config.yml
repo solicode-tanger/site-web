@@ -2,7 +2,7 @@ title: SoliCode
 email: essarraj.fouad@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Description de site web
-baseurl: ""
+baseurl: "/site-web"
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
