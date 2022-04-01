@@ -5,23 +5,23 @@
             <p class="text-larger mb-3 justify-content-center text-center">Les activités constituent pour les
                 étudiants une opportunité pour sortir de la routine quotidienne et aussi pour garder contact
                 avec l'environnement externe.
-                Pour cela SOLICODE organise durant l'année des activités extra.  eeee</p>
-    
-    
+                Pour cela SOLICODE organise durant l'année des activités extra. eeee</p>
+
+
             <div class="clear my-0,5"></div>
-    
+
             <div class="clear my-3"></div>
-    
+
         </div>
         <!-- Image activites start-->
         <div>
             <section id="content" class="clearfix"
                 data-scrollto-settings="{&quot;offset&quot;:0,&quot;speed&quot;:1250,&quot;easing&quot;:&quot;easeOutQuad&quot;}">
-    
+
                 <div class="content-wrap">
                     <div class="container dark clearfix">
-    
-    
+
+
                         <!-- Grid Items
                     ============================================= -->
                         <div class="row grid grid-container gutter-20 has-init-isotope grid--loaded"
@@ -29,28 +29,30 @@
                             {% for activity in site.activities  %}
                             <div class="grid-item col-12 col-sm-6 col-md-5 col-lg-4" data-size="1280x853"
                                 style="position: absolute; left: 0%; top: 0px; transition: none 0s ease 0s; transform: none; opacity: 1;">
-                                <a href="{{ activity.image }}"
-                                    class="img-wrap  fadeInUp animated shadow" data-animate="fadeInUp"
-                                    >
+                                <a href="{{ activity.image }}" class="img-wrap  fadeInUp animated shadow"
+                                    data-animate="fadeInUp">
                                     <img src="{{ activity.image }}" alt="img01">
                                     <div class="description description-grid">
-                                        <h3 style="color:#F2B705;"><a href="{{ activity.url }}">{{ activity.title  }} </a> </h3>
-                                        <p class="text-left">{{ activity.content | markdownify |  remove: '<p>' | remove: '</p>' }}</p>
+                                        <h3 style="color:#F2B705;"><a href="{{ activity.url }}">{{ activity.title  }}
+                                            </a> </h3>
+                                        <p class="text-left">
+                                            {{ activity.content | markdownify |  remove: '<p>' | remove: '</p>' }}</p>
                                         <div class="details">
                                             <ul>
                                                 <li><i class="icon icon-map-marker2"></i><span
                                                         class="text-uppercase">{{ activity.location }}</span></li>
-                                                <li><i class="icon icon-calendar3"></i><span>{{ activity.date | date: "%b %-d, %Y"}}</span>
+                                                <li><i
+                                                        class="icon icon-calendar3"></i><span>{{ activity.date | date: "%b %-d, %Y"}}</span>
                                                 </li>
-    
+
                                             </ul>
                                         </div>
                                     </div>
                                 </a>
                             </div>
                             {% endfor %}
-    
-    
+
+
                         </div>
                         <!-- /grid -->
                         <div class="preview">
@@ -62,21 +64,21 @@
                                 style="opacity: 0; width: 255px; height: 170px; top: 187.333px; left: 91.6667px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1);">
                         </div>
                     </div>
-    
+
                     <div class="clear"></div>
-    
-    
-    
+
+
+
                     <div class="clear"></div>
-    
-    
+
+
                 </div>
             </section>
-    
+
         </div>
         <!-- Image activites end -->
-    
+
     </div>
-    
-    </section>
-    <!-- Formation section end -->
+
+</section>
+<!-- Formation section end -->

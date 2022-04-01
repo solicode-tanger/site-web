@@ -16,11 +16,17 @@ collections:
   activities:
     output: true
   slides:
-   output: false
-   formation : false
-   formation web : false
-   formation mobile : false
-   about : false
+   
+  formation : 
+    output: false
+  formation web : 
+    output: false
+  formation mobile : 
+    output: false
+  about : 
+    output: false
+  partners : 
+    output: false
 
 
 # Build settings
