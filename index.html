@@ -4,6 +4,8 @@ layout: default
 
 <!-- Slider
 		============================================= -->
+{% for slide in site.slides  %}
+
 <section id="slider" class="slider-element dark min-vh-100 include-header"
     style="background-image:url(images/featured/Hero.jpg)">
     <div class="slider-inner flex-column">
@@ -14,11 +16,10 @@ layout: default
 
                     <div class="col-lg-6 col-md-6 text-center text-lg-left">
                         <h2 class="font-weight-bold nott " data-aos="fade-up" data-aos-duration="1000"
-                            style="font-size: 45px; letter-spacing: -1px;">FORMATIONS EN D&#201;VELOPPEMENT WEB
-                            ET MOBILE 100% GRATUITE</h2>
+                            style="font-size: 45px; letter-spacing: -1px;">{{ slide.title  }}</h2>
 
                         <div>
-                            <a href="inscription.html" data-aos="fade-up" data-aos-duration="1500"
+                            <a href="{{ slide.action_link  }}" data-aos="fade-up" data-aos-duration="1500"
                                 class="button m-0 button-large bg-warning text-primary">INSCRIPTION <i
                                     class="icon-angle-right"></i></a>
                         </div>
@@ -31,17 +32,17 @@ layout: default
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 col-md-7 d-flex flex-row">
-                        <div class="col text-center"><img src="{{site.baseurl}}/images/sponcors/fondation-logo.svg"
+                        <div class="col text-center"><img src="images/sponcors/fondation-logo.svg"
                                 alt="Clients">
                         </div>
-                        <div class="col text-center"><img src="{{site.baseurl}}/images/sponcors/ofppt-logo.svg"
+                        <div class="col text-center"><img src="images/sponcors/ofppt-logo.svg"
                                 alt="Clients">
                         </div>
-                        <div class="col text-center pt-ocp"><img src="{{site.baseurl}}/images/sponcors/ocp-logo.png"
+                        <div class="col text-center pt-ocp"><img src="images/sponcors/ocp-logo.png"
                                 alt="Clients">
                         </div>
                         <div class="col text-center pt-simplon"><img
-                                src="{{site.baseurl}}/images/sponcors/simplon-logo.png" alt="Clients">
+                                src="images/sponcors/simplon-logo.png" alt="Clients">
                         </div>
                     </div>
                 </div>
@@ -50,6 +51,7 @@ layout: default
 
     </div>
 </section>
+{% endfor  %}
 <!-- #slider end -->
 
 <!-- Apropos start  -->
@@ -98,7 +100,7 @@ layout: default
                             <!-- Youtube Video Link
 													============================================= -->
 
-                            <img id="solicodevid" src="{{site.baseurl}}/images/sections/video2.jpg"
+                            <img id="solicodevid" src="images/sections/video2.jpg"
                                 data-videourl="https://www.youtube.com/embed/sp6Dnvjm-s8" alt="Youtube Video"
                                 style="box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.15); border-radius: 6px;">
                             <i id="solicodevid2" data-videourl="https://www.youtube.com/embed/sp6Dnvjm-s8"
@@ -223,7 +225,7 @@ layout: default
                         </div>
                     </div>
                     <div class="col-md-6 center vertical-middle">
-                        <img data-aos="fade-right" src="/css/one-page/images/activites-illustrations.svg" alt="Iphone">
+                        <img data-aos="fade-right" src="css/one-page/images/activites-illustrations.svg" alt="Iphone">
                     </div>
                 </div>
             </div>
@@ -402,7 +404,6 @@ layout: default
     </div>
 </section>
 <!-- Counter section end -->
-
 
 <!-- Contact Section start-->
 <section id="content">
