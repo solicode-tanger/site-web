@@ -1,6 +1,7 @@
 ---
-title:
+title: formation en devéloppementweb et mobile 100% Gratuite
+image: images/featured/Hero.jpg
 description:
-action_title:
+action_title: inscription
 action_link:
 ---
