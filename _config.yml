@@ -27,6 +27,10 @@ collections:
     output: false
   partners : 
     output: false
+  formateurs : 
+    output: false
+  solicode_presentations :
+    output: false
 
 
 # Build settings
