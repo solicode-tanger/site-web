@@ -24,6 +24,8 @@
 	<link rel="stylesheet" href="/site-web/css/magnific-popup.css" type="text/css" />
 	<link rel="stylesheet" href="/site-web/css/youtube-overlay.css" type="text/css" />
 	<link rel="stylesheet" href="/site-web/css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="/site-web/css/timeline.min.css" type="text/css" />
+	<link rel="stylesheet" href="/site-web/css/formation.css" type="text/css" />
 
 	<!-- Photography Specific Stylesheet -->
     <link rel="stylesheet" href="/site-web/demos/landing/landing.css" type="text/css" />
@@ -36,7 +38,12 @@
 	<link rel="stylesheet" href="/site-web/css/custom.css" type="text/css" />
 	<link rel="stylesheet" href="/site-web/css/colors.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- script -->
+	<script src="/site-webjs/jquery.js"></script>
+	<script src="/site-webjs/plugins.infinitescroll.js"></script>
+	<!-- <script src="/site-web/js/plugins.min.js"></script> -->
 
+	
 	<!-- Document Title -->
     <link rel="icon" type="image/png" sizes="30x30" href="/site-web/images/solicode_favicon_yellow.svg">
     <title>Activities</title>
@@ -124,11 +131,10 @@ data-bottom-top="background-position:0px 300px;" data-top-bottom="background-pos
 <section id="content">
 <div id="section-formation" class="center justify-content-center col-md-12  page-section mt">
     <div class="row justify-content-center col-md-12  col-mb-50">
-
         <p class="text-larger mb-3 justify-content-center text-center">Les activités constituent pour les
             étudiants une opportunité pour sortir de la routine quotidienne et aussi pour garder contact
             avec l'environnement externe.
-            Pour cela SOLICODE organise durant l'année des activités extra.</p>
+            Pour cela SOLICODE organise durant l'année des activités extra.  eeee</p>
 
 
         <div class="clear my-0,5"></div>
@@ -331,7 +337,7 @@ data-bottom-top="background-position:0px 300px;" data-top-bottom="background-pos
 						    <!-- Logo -->
 						    <div id="logo" class=" w-100 d-flex justify-content-center ">
 							<a href="index.html" class="standard-logo " data-dark-logo="/site-web/css/one-page/images/logo-footer.svg"><img
-									src="css/one-page/images/logo-footer.svg" alt="SOLICODE Logo"></a>
+									src="/site-web/css/one-page/images/logo-footer.svg" alt="SOLICODE Logo"></a>
 							<a href="index.html" class="retina-logo" data-dark-logo="/site-web/css/one-page/images/logo-footer.svg"><img
 									src="/site-web/css/one-page/images/logo-footer.svg" alt="SOLICODE Logo"></a>
 						    </div>
@@ -448,6 +454,7 @@ data-bottom-top="background-position:0px 300px;" data-top-bottom="background-pos
 	<script src="/site-web/js/plugins.min.js"></script>
 	<script src="https://maps.google.com/maps/api/js?key=YOUR-API-KEY"></script>
 	<script src="/site-web/demos/photography/js/photography-addons.js"></script>
+	<script src="/site-web/js/timeline.min.js"></script>
 
 	
 
@@ -554,8 +561,24 @@ vide.activateDeployment();
 
 </script>
 
+
+<script>
+	timeline(document.querySelectorAll('.timeline'), {
+		forceVerticalMode: 700,
+		mode: 'horizontal',
+		verticalStartPosition: 'left',
+		visibleItems: 4
+	});
+</script>
+<!-- script aos   -->
+<script>
+	AOS.init();
+</script>
+
     </div>
 
-</body>
 
+
+    
+</body>	
 </html>
