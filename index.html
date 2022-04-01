@@ -2,8 +2,7 @@
 layout: default
 ---
 
-<!-- Slider
-		============================================= -->
+<!-- Slider -->
 {% for slide in site.slides  %}
 
 <section id="slider" class="slider-element dark min-vh-100 include-header"
@@ -16,11 +15,11 @@ layout: default
 
                     <div class="col-lg-6 col-md-6 text-center text-lg-left">
                         <h2 class="font-weight-bold nott " data-aos="fade-up" data-aos-duration="1000"
-                            style="font-size: 45px; letter-spacing: -1px;">{{ slide.title  }}</h2>
+                            style="font-size: 45px; letter-spacing: -1px;">{{slide.title}}</h2>
 
                         <div>
-                            <a href="{{ slide.action_link  }}" data-aos="fade-up" data-aos-duration="1500"
-                                class="button m-0 button-large bg-warning text-primary">INSCRIPTION <i
+                            <a href="{{slide.action_link}}" data-aos="fade-up" data-aos-duration="1500"
+                                class="button m-0 button-large bg-warning text-primary">INSCRIPTION<i
                                     class="icon-angle-right"></i></a>
                         </div>
                     </div>
