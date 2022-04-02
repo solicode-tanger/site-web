@@ -1,0 +1,3 @@
+environment: development
+baseurl: "/site-web"
+destination: _docs_development
