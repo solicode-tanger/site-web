@@ -1,0 +1,128 @@
+<footer id="footer" class="dark">
+    <div class="container">
+        <div class="footer-widgets-wrap">
+            <div class="row col-mb-50">
+                <div class="col-lg-8">
+                    <div class="row col-mb-50">
+                        <div class="col-md-4">
+                            <div class="widget clearfix">
+                                <img src="{{site.baseurl}}/images/logo/logo-solicode.svg" alt="Image" class="footer-logo">
+                                <p>
+                                    Nous nous sentons extrêmement chanceux d'avoir eu la volonté  et l'opportunité d'apprendre à programmer .
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="widget widget_links clearfix">
+                                <h4>Menu</h4>
+                                <ul>
+                                    <li><a href="/">Accueil</a></li>
+                                    <li><a href="/formations">Formations</a></li>
+                                    <li><a href="/blog">Blog</a></li>
+                                    <li><a href="/contact">Contact</a></li>
+                                  
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="widget clearfix">
+                                <h4>Nos formations</h4>
+                                {% assign formation_ordered = site.formations | sort : "order"  %}
+                                <ol>
+                                {% for formation in formation_ordered %}
+                                    <li><a href="{{formation.url}}" title="{{formation.title}}">{{formation.link_title}}</a></li>
+                                {% endfor %}
+                                </ol>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="row col-mb-50">
+                        <div class="col-md-4 col-lg-12">
+                            <div class="widget clearfix" style="margin-bottom: -20px;">
+                                <div class="row">
+                                    <div class="col-lg-6 bottommargin-sm">
+                                        <a href="/formations">
+                                            <div class="counter counter-small"><span data-from="1" data-to="{{site.formations | size }}" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
+                                            <h5 class="mb-0">Formations</h5>
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="col-lg-6 bottommargin-sm">
+                                        <a href="#" target="_blank">
+                                            <div class="counter counter-small"><span data-from="1" data-to="2634" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
+                                            <h5 class="mb-0">Apprenants</h5>
+                                        </a>
+                                        
+                                       
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-lg-12">
+                            <div class="widget clearfix" style="margin-bottom: -20px;">
+                                <div class="row">
+
+                                    <div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
+                                        <a target="_blank" href="#" class="social-icon si-dark si-colored si-youtube mb-0" style="margin-right: 10px;">
+                                            <i class="icon-youtube"></i>
+                                            <i class="icon-youtube"></i>
+                                        </a>
+                                        <a target="_blank" href="#"><small style="display: block; margin-top: 3px;">/solicode</small></a>
+                                    </div>
+
+                                    <div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
+                                        <a target="_blank" href="#" class="social-icon si-dark si-colored si-facebook mb-0" style="margin-right: 10px;">
+                                            <i class="icon-facebook"></i>
+                                            <i class="icon-facebook"></i>
+                                        </a>
+                                        <a target="_blank" href="#"><small style="display: block; margin-top: 3px;">/solicode</small></a>
+                                    </div>
+
+                                    <div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
+                                        <a target="_blank" href="#" class="social-icon si-dark si-colored si-youtube mb-0" style="margin-right: 10px;">
+                                            <i class="icon-github"></i>
+                                            <i class="icon-github"></i>
+                                        </a>
+                                        <a target="_blank" href="#"><small style="display: block; margin-top: 3px;">/solicode</small></a>
+                                    </div>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="copyrights">
+        <div class="container">
+            <div class="row col-mb-30">
+                <div class="col-md-6 text-center text-md-left">
+                    Copyrights &copy; 2021 All Rights Reserved by SoliCode<br>
+                </div>
+                <div class="col-md-6 text-center text-md-right">
+                    <div class="d-flex justify-content-center justify-content-md-end">
+                        <a href="#" target="_blank" class="social-icon si-small si-borderless si-youtube">
+                            <i class="icon-youtube"></i>
+                            <i class="icon-youtube"></i>
+                        </a>
+
+                        <a href="#" target="_blank" class="social-icon si-small si-borderless si-facebook">
+                            <i class="icon-facebook"></i>
+                            <i class="icon-facebook"></i>
+                        </a>
+                        <a href="#" target="_blank" class="social-icon si-small si-borderless si-github">
+                            <i class="icon-github"></i>
+                            <i class="icon-github"></i>
+                        </a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>

@@ -1,0 +1,76 @@
+destination: docs
+locale: fr_FR
+title: SoliCode
+description: SoliCode est une école de codage à Tanger
+baseurl: "/site-web"
+permalink: /:title/
+include: ["_pages"]
+environment: production
+excerpt_separator: <!-- end introduction -->
+url: "https://solicode.co" 
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-archives
+  - jekyll-sitemap
+
+# Archives
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
+
+# Pagination 
+paginate: 6
+paginate_path: /page:num/
+    
+# Other
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    block:
+      line_numbers: true
+
+  
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - docs
+
+# Collections
+collections:
+  formations:
+    output: true
+    permalink: /:title/
+  skills:
+    output: true
+    permalink: /compétences/:title/
+  technologies:
+    output: true
+    permalink: /technologies/:title/
+
+# Authors
+authors:
+  essarraj:
+    name: ESSARRAJ
+    display_name: ESSARRAJ Fouad
+    gravatar: e56154546cf4be74e393c62d1ae9f9d4
+    email: essarraj.fouad@gmail.com
+    web: https://www.essarrajfouad.com
+    description: "J'aide les étudiants, élèves ingénieur et stagiaires à développer leurs compétences en développement d’application."

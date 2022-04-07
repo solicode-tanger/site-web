@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.0">Jekyll</generator><link href="https://solicode.co/site-web/feed.xml" rel="self" type="application/atom+xml" /><link href="https://solicode.co/site-web/" rel="alternate" type="text/html" /><updated>2022-04-07T11:04:08+00:00</updated><id>https://solicode.co/site-web/feed.xml</id><title type="html">SoliCode</title><subtitle>SoliCode est une école de codage à Tanger</subtitle><entry><title type="html">Qu’est-ce que Gravatar ?</title><link href="https://solicode.co/site-web/gravatar/" rel="alternate" type="text/html" title="Qu’est-ce que Gravatar ?" /><published>2020-06-10T00:00:00+01:00</published><updated>2020-06-10T00:00:00+01:00</updated><id>https://solicode.co/site-web/gravatar</id><content type="html" xml:base="https://solicode.co/site-web/gravatar/">&lt;p&gt;Un « avatar » est une image qui vous représente en ligne, une petite image qui apparaît à côté de votre nom lorsque vous interagissez avec des sites Web.&lt;/p&gt;
+
+&lt;p&gt;Gravatar est un service Web gratuit de centralisation d’avatar racheté en 2007 par Automattic, la société qui édite WordPress.com.&lt;/p&gt;
+
+&lt;p&gt;Le nom correspond à l’abréviation de « globally recognized avatar ».&lt;/p&gt;
+
+&lt;p&gt;Grâce à Gravatar, vous pouvez associer une image publique (un avatar) à une adresse e-mail.&lt;/p&gt;
+
+&lt;p&gt;Cet avatar vous suivra lors de vos interactions en ligne, tant sur WordPress (encart d’auteur, commentaires, administration…) qu’ailleurs sur le web (autres CMS, forums ou des services comme Gmail).&lt;/p&gt;
+
+&lt;p&gt;Si vous utilisez plusieurs e-mails, vous pouvez les rattacher à votre compte Gravatar et leur associer les images de votre choix (vous n’avez pas besoin de créer de nouveau compte).&lt;/p&gt;
+
+&lt;h2 id=&quot;références&quot;&gt;Références&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://gravatar.com&quot;&gt;gravatar.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><category term="service Web" /><category term="avatar" /><summary type="html">Un « avatar » est une image qui vous représente en ligne, une petite image qui apparaît à côté de votre nom lorsque vous interagissez avec des sites Web. Gravatar est un service Web gratuit de centralisation d’avatar racheté en 2007 par Automattic, la société qui édite WordPress.com. Le nom correspond à l’abréviation de « globally recognized avatar ». Grâce à Gravatar, vous pouvez associer une image publique (un avatar) à une adresse e-mail. Cet avatar vous suivra lors de vos interactions en ligne, tant sur WordPress (encart d’auteur, commentaires, administration…) qu’ailleurs sur le web (autres CMS, forums ou des services comme Gmail). Si vous utilisez plusieurs e-mails, vous pouvez les rattacher à votre compte Gravatar et leur associer les images de votre choix (vous n’avez pas besoin de créer de nouveau compte). Références gravatar.com</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://solicode.co/site-web/assets/images/outils/gravatar.jpg" /><media:content medium="image" url="https://solicode.co/site-web/assets/images/outils/gravatar.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
