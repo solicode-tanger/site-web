@@ -16,6 +16,8 @@
 	<link rel="stylesheet" href="{{site.baseurl}}/css/font-icons.css" type="text/css" />
 	<link rel="stylesheet" href="{{site.baseurl}}/css/animate.css" type="text/css" />
 	<link rel="stylesheet" href="{{site.baseurl}}/css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/css/youtube-overlay.css" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/css/aos.css" type="text/css" />
 	<link rel="stylesheet" href="{{site.baseurl}}/css/custom.css" type="text/css" />
     {% if site.environment == 'production' %}
         <!-- Google Analytics -->
@@ -31,5 +33,38 @@
 <script src="{{site.baseurl}}/js/jquery.js"></script>
 <script src="{{site.baseurl}}/js/plugins.min.js"></script>
 <script src="{{site.baseurl}}/js/functions.js"></script>
+<script src="{{site.baseurl}}/js/aos.js"></script>
+<script src="{{site.baseurl}}/js/youtube-overlay.js"></script>
+<script>
+	AOS.init();
+</script>
+<script>
+	var img = $("#solicodevid ");
+  var configObject = {
+	sourceUrl: img.attr("data-videourl"),
+	triggerElement: "#" + img.attr("id"),
+	progressCallback: function() {
+	  console.log("Callback Invoked.");
+	}
+  };
+  
+  var videoBuild = new YoutubeOverlayModule(configObject);
+	videoBuild.activateDeployment();
+
+	var img2 = $("#solicodevid2 ");
+  var co = {
+	sourceUrl: img2.attr("data-videourl"),
+	triggerElement: "#" + img2.attr("id"),
+	progressCallback: function() {
+	  console.log("Callback Invoked.");
+	}
+  };
+  
+  var vide = new YoutubeOverlayModule(co);
+	vide.activateDeployment();
+
+
+  </script>
+
 </body>
 </html>

@@ -111,8 +111,35 @@
 	.button-light.button-yellow:not(.button-border) { background-color: #F2B705 !important; }
 	/* - Promo Boxes */
 	/* - Featured Boxes */
+
+ 
+	
+	.fbox-plain .fbox-icon i {
+		color: #F2B705;
+	
+	}
+	.fbox-plain .fbox-icon i:hover {
+		color: #3945ba !important;
+	
+	}
+
+	.fbox-content h3 {
+		font-size: 1.25rem;
+		color: #3945ba;
+	}
+	
+	.fbox-content p {
+		margin-top: 0.5rem;
+		margin-bottom: 0px;
+		color: #555;
+	}
+	
 	/* - Process Steps */
 	/* - Styled Icons */
+	.i-plain {
+		color: #F2B705;
+
+	}
 	/* - Toggles */
 	/* - Accordions */
 	/* - Tabs */
@@ -154,6 +181,11 @@
 /* - Stretched Layout */
 /* - Page Transitions */
 /* - Youtube Video Backgrounds */
+
+
+#section-apropos p {
+	text-align: justify !important;
+}
 
 
 
