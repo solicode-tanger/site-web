@@ -1,34 +1,20 @@
 <nav class="primary-menu style-5">
-
-  <ul class="one-page-menu menu-container" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
-    <li class="menu-item {% if page.url == '/' %}current{% endif %}">
-      <a class="menu-link" href="{{site.baseurl}}/" data-href="#wrapper" style="padding-top: 27px; padding-bottom: 27px;">
-        <div><i class="icon-home2"></i>Accueil<i class="icon-angle-down"></i></div>
+  <ul class="{% if page.url == '/' %}one-page-menu{% endif %} menu-container" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+    {% for menu_item in site.data.menu %}
+    <li class="menu-item">
+     
+      {% if menu_item.lien == nil  %}
+      <a class="menu-link" href="{{site.baseurl}}/#{{menu_item.reference}}" data-href="#{{menu_item.reference}}" style="padding-top: 27px; padding-bottom: 27px;">
+        <div><i class="{{menu_item.icon}}"></i>{{menu_item.label}}<i class="icon-angle-down"></i></div>
       </a>
-    </li>
-
-    <li class="menu-item {% if page.url == '/' %}current{% endif %}">
-      <a class="menu-link" href="#section-apropos" data-href="#section-apropos" style="padding-top: 27px; padding-bottom: 27px;">
-        <div><i class="icon-bulb"></i>SoliCode<i class="icon-angle-down"></i></div>
+      {% else%}
+      <a class="menu-link button  button-rounded button-yellow button-light " href="{{site.baseurl}}/{{menu_item.lien}}"  style="padding-top: 27px; padding-bottom: 27px;">
+        <div><i class="{{menu_item.icon}}"></i>{{menu_item.label}}<i class="icon-angle-down"></i></div>
       </a>
+      {% endif %}
     </li>
-    
-
-    <li class="menu-item {% if page.url == '/blog' %}current{% endif %}">
-      <a class="menu-link" href="#section-formation" data-href="#section-formation" style="padding-top: 27px; padding-bottom: 27px;">
-        <div><i class="icon-code"></i>Formation<i class="icon-angle-down"></i></div>
-      </a>
-    </li>
-   
-
-   <li class="menu-item {% if page.url == '/blog' %}current{% endif %}">
-    <a class="menu-link" href="#section-contact" data-href="#section-contact" style="padding-top: 27px; padding-bottom: 27px;">
-      <div><i class="icon-map-marker1"></i>Contact<i class="icon-angle-down"></i></div>
-    </a>
-  </li>
-  
-
-
+    {% endfor %}
+ 
   </ul>
 </nav>
  

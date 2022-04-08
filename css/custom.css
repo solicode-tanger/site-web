@@ -5,12 +5,11 @@
 	Overwriting Default Theme Styles for Better Handling Updates
 -----------------------------------------------------------------*/
 
-	/* - Basic */
-	/* - Typography */
-
-	body {
-		font-family: 'Source Sans Pro', sans-serif;
-	}
+/* - Basic */
+/* - Typography */
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
 
 	
 /* - Basic Layout Styles */
@@ -55,6 +54,9 @@
 	.menu-item:hover > .menu-link,
 	.menu-item.current > .menu-link {
 		color: #F2B705;
+	}
+	.menu-item:hover > .button-yellow{
+		color: #fff;
 	}
 	
 	
@@ -187,9 +189,13 @@
 	text-align: justify !important;
 }
 
+.page-section h2 {
+	text-transform: uppercase;
+}
 
-
- 
+#section-about p {
+	text-align: justify;
+}
  
 
 

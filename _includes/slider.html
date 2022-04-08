@@ -3,26 +3,27 @@
 
         <div class="swiper-container swiper-parent">
             <div class="swiper-wrapper">
+                {% for slide in site.data.slides %}
                 <div class="swiper-slide">
                     <div class="container">
                         <div class="slider-caption  ">
-                            <h2 data-animate="fadeInUp" >Développement Web et Mobile</h2>
-                            <p class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">
-                               
-                                SoliCode est une formation 100% gratuite en développement Web et Mobile
+                            <h2 data-animate="fadeInUp" >{{slide.titre }}</h2>
+                            <div class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">
+                                {{slide.description | markdownify }}
+                            </div>
+                            {% if slide.button-action-label != nil %}
+                            <p data-animate="fadeInUp" data-delay="200">
+                                <a href="{{site.baseurl}}/{{slide.button-action-lien }}" class="button button-3d  button-large button-rounded button-yellow  button-light   ">
+                                    {{slide.button-action-label }}
+                                </a>
                             </p>
-                            <p  data-animate="fadeInUp" data-delay="200">
-                                <a href="{{site.baseurl}}/inscription" class="button button-3d  button-large button-rounded button-yellow  button-light   ">Inscription</a>
-
-    
-
-
-                            </p>
+                            {% endif %}
                            
                         </div>
                     </div>
-                    <div class="swiper-slide-bg" style="background-image: url('{{site.baseurl}}/images/slides/slide1.jpg');"></div>
+                    <div class="swiper-slide-bg" style="background-image: url('{{site.baseurl}}/{{slide.image }}');"></div>
                 </div>
+                {% endfor %}
             </div>
             <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
             <div class="slider-arrow-right"><i class="icon-angle-right"></i></div>

@@ -1,0 +1,16 @@
+titre : Formations
+formations:
+  - titre : Développement Web
+    description: > 
+      Le *développeur* / la développeuse web réalise l’ensemble des fonctionnalités 
+      techniques d’un site ou d'une application web
+    image: images/web_illustrations.png
+    button-label: Plus d'info
+    button-lien: formations-d-web.html
+  - titre : DEVELOPPEMENT MOBILE
+    description: >
+      Le développeur mobiles effectue la réalisation technique et le développement 
+      informatique d’applications pour mobiles, smartphones et autres tablettes.
+    image: images/mobile_illustrations.png
+    button-label: Plus d'info
+    button-lien: formations-d-mobile.html
