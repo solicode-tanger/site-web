@@ -1,0 +1,15 @@
+# Le contenue de la page index 
+titre: Hackaton 2022
+colonnes:
+  - titre: Information 1
+    icone: icon-lightbulb1
+    description: >  
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magni tempore non ut neque sed tempora repellendus? Adipisci veniam impedit dolor qui eum neque sit quibusdam quaerat. Hic, eligendi sunt!
+  - titre: Méthodologie innovante
+    icone: icon-lightbulb1
+    description: >  
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magni tempore non ut neque sed tempora repellendus? Adipisci veniam impedit dolor qui eum neque sit quibusdam quaerat. Hic, eligendi sunt!
+  - titre: Formation intensive
+    icone: icon-lightbulb1
+    description: >  
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magni tempore non ut neque sed tempora repellendus? Adipisci veniam impedit dolor qui eum neque sit quibusdam quaerat. Hic, eligendi sunt!

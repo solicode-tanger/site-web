@@ -2,14 +2,14 @@
 layout: default
 ---
 
-{% include slider.html %}
+{% include slider.html slides = site.data.slides %}
 
- 
+
 
 <section id="content">
 <div class="content-wrap py-0">
  
-  {% include section-apropos.html %}
+  {% include section-apropos.html data = site.data.section-apropos %}
   {% include section-c-est-quoi-solicode.html %}
   {% include section-formations.html %}
   {% include section-activites.html %}

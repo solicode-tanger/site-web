@@ -10,8 +10,6 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
-
-	
 /* - Basic Layout Styles */
 /* - Helper Classes */
 /* - Sections */
@@ -23,8 +21,14 @@ body {
 
 	#header {
 		background-color: #3945ba  !important ;
+		border-bottom: 1px solid transparent;
 	}
-	
+	#header-wrap {
+		background-color: transparent;
+		border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+	 
+	}
+
 	#logo img {
 		height: 70px !important;
 	}
@@ -33,10 +37,14 @@ body {
 		height: 30px;
 	}
 	@media (min-width: 992px){
-	.sticky-header #header-wrap {
-		background-color: #3945ba  ;
-		box-shadow: 0 0 10px rgb(0 0 0 / 10%);
-	}
+		#header #header-wrap { 
+			border-bottom-color: rgba(0,0,0,0.05) !important; 
+		}
+
+		.sticky-header #header-wrap {
+			background-color: #3945ba  ;
+			box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+		}
 	}
 
 	#top-social a,.top-links-item > a {
@@ -72,6 +80,9 @@ body {
 
 
 	/* - Primary Menu */
+.svg-trigger path {
+	stroke: #fff;
+}
 	/* - Mega Menu */
 	/* - Top Search */
 	/* - Top Cart */
