@@ -1,0 +1,7 @@
+titre : Hackaton 2022
+description : Hackaton 2022 à SoliCode Tanger
+menu_page:
+  - label: Apropos
+    reference: section-apropos
+  - label: Déroulement du Hackaton
+    reference: process-steps

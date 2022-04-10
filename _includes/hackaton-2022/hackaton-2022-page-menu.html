@@ -1,0 +1,22 @@
+
+<div id="page-menu" class="dots-menu dots-menu-border">
+    <div id="page-menu-wrap">
+      <div class="container">
+        <div class="page-menu-row">
+          <div class="page-menu-title">{{site.data.hackaton_2022.page_hackaton_2022.titre}}</div>
+  
+          <nav class="page-menu-nav">
+            <ul class="page-menu-container one-page-menu" data-offset="0">
+              {% for menu_item in site.data.hackaton_2022.page_hackaton_2022.menu_page  %}
+              <li class="page-menu-item"><a href="#" data-href="#{{menu_item.reference}}"><div>{{menu_item.label}}</div></a></li>
+              {% endfor %}
+            </ul>
+          </nav>
+  
+          <div id="page-menu-trigger"><i class="icon-reorder"></i></div>
+  
+        </div>
+      </div>
+    </div><div class="page-menu-wrap-clone" style="height: 224px;"></div>
+  </div>
+  

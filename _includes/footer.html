@@ -12,56 +12,23 @@
                                 </p>
                             </div>
                         </div>
-                        <div class="col-md-4">
+                        <div class="col-md-6">
                             <div class="widget widget_links clearfix">
                                 <h4>Menu</h4>
                                 <ul>
-                                    <li><a href="/">Accueil</a></li>
-                                    <li><a href="/formations">Formations</a></li>
-                                    <li><a href="/blog">Blog</a></li>
-                                    <li><a href="/contact">Contact</a></li>
-                                  
+
+                                    {% for menu_item in site.data.menu %}
+                                    <li><a href="{{site.baseurl}}/#{{menu_item.reference}}">{{menu_item.label}}</a></li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div>
-                        <div class="col-md-4">
-                            <div class="widget clearfix">
-                                <h4>Nos formations</h4>
-                                {% assign formation_ordered = site.formations | sort : "order"  %}
-                                <ol>
-                                {% for formation in formation_ordered %}
-                                    <li><a href="{{formation.url}}" title="{{formation.title}}">{{formation.link_title}}</a></li>
-                                {% endfor %}
-                                </ol>
-                            </div>
-
-                        </div>
+                       
                     </div>
                 </div>
                 <div class="col-lg-4">
                     <div class="row col-mb-50">
-                        <div class="col-md-4 col-lg-12">
-                            <div class="widget clearfix" style="margin-bottom: -20px;">
-                                <div class="row">
-                                    <div class="col-lg-6 bottommargin-sm">
-                                        <a href="/formations">
-                                            <div class="counter counter-small"><span data-from="1" data-to="{{site.formations | size }}" data-refresh-interval="80" data-speed="3000" data-comma="true"></span></div>
-                                            <h5 class="mb-0">Formations</h5>
-                                        </a>
-                                        
-                                    </div>
-                                    <div class="col-lg-6 bottommargin-sm">
-                                        <a href="#" target="_blank">
-                                            <div class="counter counter-small"><span data-from="1" data-to="2634" data-refresh-interval="50" data-speed="2000" data-comma="true"></span></div>
-                                            <h5 class="mb-0">Apprenants</h5>
-                                        </a>
-                                        
-                                       
-                                    </div>
-                                </div>
-
-                            </div>
-                        </div>
+                       
                         <div class="col-md-3 col-lg-12">
                             <div class="widget clearfix" style="margin-bottom: -20px;">
                                 <div class="row">
