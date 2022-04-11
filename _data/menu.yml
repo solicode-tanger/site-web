@@ -7,6 +7,9 @@
 - label: Formation
   icon: icon-code
   reference: section-formation
+- label: Activités
+  icon: icon-paperplane
+  reference: section-activites
 - label: Inscription
   icon: icon-clip
   lien: inscription

@@ -15,12 +15,23 @@
                         <div class="col-md-6">
                             <div class="widget widget_links clearfix">
                                 <h4>Menu</h4>
-                                <ul>
-
+                                <ul class="{% if page.url == '/' %}one-page-menu{% endif %}" 
+                                data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
                                     {% for menu_item in site.data.menu %}
-                                    <li><a href="{{site.baseurl}}/#{{menu_item.reference}}">{{menu_item.label}}</a></li>
+                                    <li>
+                                      {% if menu_item.lien == nil  %}
+                                      <a  href="{{site.baseurl}}/#{{menu_item.reference}}" data-href="#{{menu_item.reference}}">
+                                        {{menu_item.label}}
+                                      </a>
+                                      {% else%}
+                                      <a  href="{{site.baseurl}}/{{menu_item.lien}}">
+                                       {{menu_item.label}}
+                                      </a>
+                                      {% endif %}
+                                    </li>
                                     {% endfor %}
                                 </ul>
+ 
                             </div>
                         </div>
                        
@@ -33,29 +44,17 @@
                             <div class="widget clearfix" style="margin-bottom: -20px;">
                                 <div class="row">
 
+                                    {% for reseau in  site.data.reseau-sociaux %}
                                     <div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
-                                        <a target="_blank" href="#" class="social-icon si-dark si-colored si-youtube mb-0" style="margin-right: 10px;">
-                                            <i class="icon-youtube"></i>
-                                            <i class="icon-youtube"></i>
+                                        <a target="_blank" href="{{reseau.lien}}" class="social-icon si-dark si-colored si-{{reseau.reference}} mb-0" style="margin-right: 10px;">
+                                            <i class="{{reseau.icone}}"></i>
+                                            <i class="{{reseau.icone}}"></i>
                                         </a>
-                                        <a target="_blank" href="#"><small style="display: block; margin-top: 3px;">/solicode</small></a>
+                                        <a target="_blank" href="{{reseau.lien}}"><small style="display: block; margin-top: 3px;">{{reseau.label}}</small></a>
                                     </div>
+                                    {% endfor %}
 
-                                    <div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
-                                        <a target="_blank" href="#" class="social-icon si-dark si-colored si-facebook mb-0" style="margin-right: 10px;">
-                                            <i class="icon-facebook"></i>
-                                            <i class="icon-facebook"></i>
-                                        </a>
-                                        <a target="_blank" href="#"><small style="display: block; margin-top: 3px;">/solicode</small></a>
-                                    </div>
-
-                                    <div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
-                                        <a target="_blank" href="#" class="social-icon si-dark si-colored si-youtube mb-0" style="margin-right: 10px;">
-                                            <i class="icon-github"></i>
-                                            <i class="icon-github"></i>
-                                        </a>
-                                        <a target="_blank" href="#"><small style="display: block; margin-top: 3px;">/solicode</small></a>
-                                    </div>
+                                   
                                    
                                 </div>
                             </div>

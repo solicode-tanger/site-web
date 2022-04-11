@@ -1,0 +1,17 @@
+{% assign data = include.data %}
+<section id="section-chiffre" class="center section bg-transparent m-0">
+    <div class="container clearfix">
+        <div class="fancy-title title-border title-center">
+            <h2>{{data.titre}}</h2>
+          </div>
+        <div class="row col-mb-50">
+            {% for chiffre in data.chiffres %}
+            <div class="col-6 col-lg-3 text-center">
+                <i class="i-plain i-xlarge mx-auto mb-0 {{chiffre.icone}}"></i>
+                <div class="counter counter-large" style="color: #3945ba"><span data-from="1" data-to="{{chiffre.nombre}}" data-refresh-interval="50" data-speed="1000">{{chiffre.nombre}}</span></div>
+                <h5>{{chiffre.label}}</h5>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>

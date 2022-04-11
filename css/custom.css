@@ -208,8 +208,13 @@ body {
 	text-align: justify;
 }
  
+.text-justify{
+	text-align: justify !important;
+}
 
-
+#section-contact address {
+	margin-bottom: 0px !important;
+}
  
 
 
