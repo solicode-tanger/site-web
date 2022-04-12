@@ -12,6 +12,12 @@
 <loc>http://localhost:4000/site-web/about/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/site-web/formation-developpeur-mobile/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/site-web/formation-developpeur-web/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/site-web/hackathon-2022/</loc>
 </url>
 <url>
