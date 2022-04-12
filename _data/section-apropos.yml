@@ -2,12 +2,12 @@
 titre: Nos valeurs
 colonnes:
   - titre: Formation inclusive
-    icone: icon-infinity
+    icone: icon-line-user-check
     description: >  
       Quel que soit votre niveau d’étude, la passion pour la technologie 
       et l’envie d'apprentissage sont les seuls critères pour nous rejoindre.
   - titre: Pédagogie active
-    icone: icon-lightbulb1
+    icone: icon-chalkboard-teacher
     description: > 
       SOLICODE adopte une pédagogie active et par projets où l'apprenant 
       se trouve dans des situations réelles ce qui garantit une insertion 
@@ -15,7 +15,7 @@ colonnes:
       formateurs référants experts durant toute la 
       période de formation.
   - titre: Méthodologie innovante
-    icone: icon-line-circle-check
+    icone: icon-lightbulb1
     description: > 
       Le centre SOLICODE est doté des moyens pédagogiques et techniques innovants
       favorisant l’apprentissage et la pratique des connaissances dans 
