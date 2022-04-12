@@ -4,12 +4,18 @@
     <li class="menu-item">
      
       {% if menu_item.lien == nil  %}
-      <a class="menu-link" href="{{site.baseurl}}/#{{menu_item.reference}}" data-href="#{{menu_item.reference}}" style="padding-top: 27px; padding-bottom: 27px;">
+      <!-- <a class="menu-link" href="{{site.baseurl}}/#{{menu_item.reference}}" data-href="#{{menu_item.reference}}" style="padding-top: 27px; padding-bottom: 27px;">
         <div><i class="{{menu_item.icon}}"></i>{{menu_item.label}}<i class="icon-angle-down"></i></div>
+      </a> -->
+      <a class="menu-link" href="{{site.baseurl}}/#{{menu_item.reference}}" data-href="#{{menu_item.reference}}" style="padding-top: 27px; padding-bottom: 27px;">
+        <div>{{menu_item.label}}</div>
       </a>
       {% else%}
-      <a class="menu-link button  button-rounded button-yellow button-light " href="{{site.baseurl}}/{{menu_item.lien}}"  style="padding-top: 27px; padding-bottom: 27px;">
+      <!-- <a class="menu-link button  button-rounded button-yellow button-light " href="{{site.baseurl}}/{{menu_item.lien}}"  style="padding-top: 27px; padding-bottom: 27px;">
         <div><i class="{{menu_item.icon}}"></i>{{menu_item.label}}<i class="icon-angle-down"></i></div>
+      </a> -->
+      <a class="menu-link button  button-rounded button-yellow button-light " href="{{site.baseurl}}/{{menu_item.lien}}"  style="padding-top: 27px; padding-bottom: 27px;">
+        <div></i>{{menu_item.label}}</div>
       </a>
       {% endif %}
     </li>
