@@ -2,16 +2,20 @@
 # le button action peut être supprimer
 
 - reference : slide2
-  titre: Hackathon 2022
+  titre: Mini-Hackathon 2022
   description: > 
-    Solicode est une formation 100% **gratuite** en développement Web et Mobile
+    Vous êtes passionné par les nouvelles technologies?
+    Vous êtes tenté de participer à une compétition digitale?
+    Rejoignez-nous le **11 Mai** prochain à Solicode Tanger!
   image: images/slides/hackathon-background.png
-  button-action-label: Inscription à hackathon
+  button-action-label: Informations et inscription
   button-action-lien: hackathon-2022
 - reference : slide1
-  titre: Développement Web et Mobile
+  titre: Inscription 2022-2023
   description: > 
-    Solicode est une formation 100% **gratuite** en développement Web et Mobile
+    Vous avez entre 18 et 35 ans?
+    Vous êtes motivé, passionné par les technologies digitales?
+    Inscrivez-vous maintenant!
   image: images/slides/slide1.jpg
-  button-action-label: Inscription
+  button-action-label: Je m'inscris!
   button-action-lien: inscription
