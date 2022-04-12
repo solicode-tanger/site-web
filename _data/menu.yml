@@ -13,9 +13,9 @@
 - label: Inscription
   icon: icon-clip
   lien: inscription
-- label: Hackaton 2022
-  icon: icon-lightbulb1
-  lien: hackathon-2022
+# - label: Hackaton 2022
+#   icon: icon-lightbulb1
+#   lien: hackathon-2022
 - label: Contact
   icon: icon-map-marker1
   reference: section-contact
