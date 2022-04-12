@@ -1,18 +1,17 @@
 # Le champ description accepte le format Markdown
 # le button action peut être supprimer
 
-- reference : slide1
-  titre: Développement Web et Mobile
-  description: > 
-   Solicode est une formation 100% **gratuite** en développement Web et Mobile
-  image: images/slides/slide1.jpg
-  button-action-label: Inscription
-  button-action-lien: inscription
 - reference : slide2
   titre: Hackathon 2022
   description: > 
-   Solicode est une formation 100% **gratuite** en développement Web et Mobile
+    Solicode est une formation 100% **gratuite** en développement Web et Mobile
   image: images/slides/hackathon-background.png
   button-action-label: Inscription à hackathon
   button-action-lien: hackathon-2022
-  
+- reference : slide1
+  titre: Développement Web et Mobile
+  description: > 
+    Solicode est une formation 100% **gratuite** en développement Web et Mobile
+  image: images/slides/slide1.jpg
+  button-action-label: Inscription
+  button-action-lien: inscription
