@@ -4,11 +4,11 @@ chiffres:
     icone: icon-users
     nombre: 12
   - label: Places pédagogiques
-    icone: bi-laptop-fill
+    icone: icon-keyboard
     nombre: 120
   - label: Lauréats
     icone: icon-graduation-cap
     nombre: 43
-  # - label: Projets
-  #   icone: icon-laptop-code
-  #   nombre: 30
+  - label: Filières
+    icone: icon-award
+    nombre: 2
