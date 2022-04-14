@@ -1,25 +1,23 @@
 # Le contenue de la page index 
-titre: à propos 2
+titre: Nos valeurs
 colonnes:
-  - titre: Apprendre sans barrière
-    icone: icon-infinity
+  - titre: Formation inclusive
+    icone: icon-line-user-check
     description: >  
-      Bienvenue à SOLICODE quel que soit votre 
-      niveau d’étude. Nous valorisons la passion pour la technologie 
-      et l’envie d'apprentissage
+      Quel que soit votre niveau d’étude, la passion pour la technologie 
+      et l’envie d'apprentissage sont les seuls critères pour nous rejoindre.
   - titre: Méthodologie innovante
     icone: icon-lightbulb1
     description: > 
-      *La méthode* de formation à SOLICODE est une pedagogie 
-      active et par projets où l'apprenant se trouve dans 
-      des situations réels ce qui garantit une insertion 
-      professionnel. L'apprenant est accompagné par des 
-      formateurs référants experts durant toute la 
-      periode de formation.
-  - titre: Formation intensive
-    icone: icon-line-circle-check
-    description: > 
-      Le centre SOLICODE est dotée des moyens pédagogiques et techniques, 
+      Le centre SOLICODE est doté des moyens pédagogiques et techniques innovants
       favorisant l’apprentissage et la pratique des connaissances dans 
-      les meilleures conditions. a SOLICODE la formation offerte est 
-      axée sur les technologies digitales les plus demandées du marché.
+      les meilleures conditions. La formation offerte à SOLICODE est 
+      axée sur les technologies digitales les plus demandées au marché du travail.
+  - titre: Pédagogie active
+    icone: icon-chalkboard-teacher
+    description: > 
+      SOLICODE adopte une pédagogie active et par projets où l'apprenant 
+      se trouve dans des situations réelles ce qui garantit une insertion 
+      professionnelle. L'apprenant est accompagné par des 
+      formateurs référants experts durant toute la 
+      période de formation.

@@ -1,0 +1,11 @@
+titre: Hackaton en chiffres
+chiffres:
+  - label: Salle
+    icone: icon-users
+    nombre: 10
+  - label: Sponseurs
+    icone: icon-laptop-code
+    nombre: 3
+  - label: Place disponible
+    icone: icon-user-graduate
+    nombre: 60

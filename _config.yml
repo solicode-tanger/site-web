@@ -74,3 +74,5 @@ authors:
     email: essarraj.fouad@gmail.com
     web: https://www.essarrajfouad.com
     description: "J'aide les étudiants, élèves ingénieur et stagiaires à développer leurs compétences en développement d’application."
+
+theme: jekyll-theme-slate

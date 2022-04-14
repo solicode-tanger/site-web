@@ -1,19 +1,18 @@
-<section id="section-activite" class="center page-section topmargin-sm  bg-transparent m-0" data-onepage-settings="{&quot;offset&quot;:65,&quot;speed&quot;:&quot;1250&quot;,&quot;easing&quot;:&quot;easeInOutExpo&quot;}" data-scrollto-settings="{&quot;offset&quot;:70,&quot;speed&quot;:&quot;1250&quot;,&quot;easing&quot;:&quot;easeInOutExpo&quot;}">
+{%  assign data = site.data.section-activites %}
+<section id="section-activites" class="center page-section mt-5 pt-4  bg-transparent m-0" data-onepage-settings="{&quot;offset&quot;:65,&quot;speed&quot;:&quot;1250&quot;,&quot;easing&quot;:&quot;easeInOutExpo&quot;}" data-scrollto-settings="{&quot;offset&quot;:70,&quot;speed&quot;:&quot;1250&quot;,&quot;easing&quot;:&quot;easeInOutExpo&quot;}">
     <div class="container clearfix">
         <div class="fancy-title title-border title-center">
-           <h2>Activités.</h2>
+           <h2>{{data.titre}}</h2>
          </div>
 
          <div data-aos="fade-right" class="row p-4 align-items-stretch shadow aos-init aos-animate">
             <div class="col-md-6 text-justify">
                 <div class="vertical-middle">
-                    <p>
-                        Les activités constituent pour les étudiants une opportunité pour sortir de la routine quotidienne et aussi pour garder contact avec l'environnement externe.
-                        Pour cela SOLICODE organise durant l'année des activités extra.
-                    </p>
+                    {{data.description | markdownify}}
                     <div class="text-center text-lg-left ">
-                        <a href="activites.html" class="button button-border button-rounded button-large ml-0 bottommargin-sm">PLUS
-                            D'INFO</a>
+                        <a href="{{data.button-lien}}" class="button button-border button-rounded button-large ml-0 bottommargin-sm">
+                            {{data.button-label}}
+                        </a>
                     </div>
                 </div>
                 
@@ -21,7 +20,7 @@
             <div class="col-md-6 center">
                 <div class=" vertical-middle">
               
-                    <img data-aos="fade-right" src="{{site.baseurl}}/images/activites-illustrations.svg" alt="Iphone" class="aos-init aos-animate">
+                    <img data-aos="fade-right" src="{{site.baseurl}}/{{data.image}}" alt="{{data.button-label}}" class="aos-init aos-animate">
                 </div>
             </div>
         </div>

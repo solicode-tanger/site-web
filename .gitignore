@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 vendor
 _docs_development
+_docs_development/feed.xml
