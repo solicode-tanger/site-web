@@ -14,8 +14,8 @@
                             <p data-animate="fadeInUp" data-delay="200">
 
 
-                                {% if slide.button-action-lien contains 'https:/' %}
-                                <a href="{{slide.button-action-lien }}" class="button button-3d  button-large button-rounded button-yellow  button-light   ">
+                                {% if slide.button-action-lien contains 'http' %}
+                                <a href="{{slide.button-action-lien }}" target="_blank" class="button button-3d  button-large button-rounded button-yellow  button-light   ">
                                     {{slide.button-action-label }}
                                 </a>
                                 {% else %}
