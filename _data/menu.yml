@@ -12,7 +12,7 @@
   reference: section-activites
 - label: Inscription
   icon: icon-clip
-  lien: inscription
+  lien: https://system.solicode.co/inscription
 # - label: Hackaton 2022
 #   icon: icon-lightbulb1
 #   lien: hackathon-2022
