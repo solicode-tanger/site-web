@@ -1,15 +1,22 @@
 # Le contenue de la page index 
-titre: Hackaton 2022
+titre: A PROPOS DE SOLIHACKATHON 22’ 
 colonnes:
-  - titre: Information 1
-    icone: icon-lightbulb1
+  - titre: Projet collaboratif
+    icone: icon-hands-helping
     description: >  
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magni tempore non ut neque sed tempora repellendus? Adipisci veniam impedit dolor qui eum neque sit quibusdam quaerat. Hic, eligendi sunt!
-  - titre: Méthodologie innovante
-    icone: icon-lightbulb1
+      Cette expérience favorisera le sens d’entraide et d’échange 
+      au sein des équipes et sera une occasion de rencontre entre 
+      les différents établissements et professionnels de la région.
+  - titre: Aventure compétitive
+    icone: icon-brain
     description: >  
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magni tempore non ut neque sed tempora repellendus? Adipisci veniam impedit dolor qui eum neque sit quibusdam quaerat. Hic, eligendi sunt!
-  - titre: Formation intensive
-    icone: icon-lightbulb1
+      Grâce à ce mini-hackathon, les participants vont faire preuve 
+      de créativité, d’innovation et de partage dans un climat convivial. 
+      Cet évènement sera une occasion pour évaluer le niveau 
+      d'implication et tester l'esprit compétitif de nos jeunes. 
+  - titre: Expérience marquante
+    icone: icon-laptop-code
     description: >  
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi magni tempore non ut neque sed tempora repellendus? Adipisci veniam impedit dolor qui eum neque sit quibusdam quaerat. Hic, eligendi sunt!
+      SOLIHACKATHON permettra aux participants de se mettre dans 
+      la peau d’un développeur tout au long de la compétition et 
+      de mettre en pratique ainsi leurs savoirs-faire et leurs savoirs-être.
