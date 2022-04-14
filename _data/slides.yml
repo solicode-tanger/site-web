@@ -18,4 +18,4 @@
     Inscrivez-vous maintenant!
   image: images/slides/slide1.jpg
   button-action-label: Je m'inscris!
-  button-action-lien: inscription
+  button-action-lien: https://system.solicode.co/inscription

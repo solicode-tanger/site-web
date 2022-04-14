@@ -1,6 +1,5 @@
 <section id="slider" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header">
     <div class="slider-inner">
-
         <div class="swiper-container swiper-parent">
             <div class="swiper-wrapper">
                 {% for slide in include.slides %}
@@ -13,12 +12,22 @@
                             </div>
                             {% if slide.button-action-label != nil %}
                             <p data-animate="fadeInUp" data-delay="200">
+
+
+                                {% if slide.button-action-lien contains 'https:/' %}
+                                <a href="{{slide.button-action-lien }}" class="button button-3d  button-large button-rounded button-yellow  button-light   ">
+                                    {{slide.button-action-label }}
+                                </a>
+                                {% else %}
                                 <a href="{{site.baseurl}}/{{slide.button-action-lien }}" class="button button-3d  button-large button-rounded button-yellow  button-light   ">
                                     {{slide.button-action-label }}
                                 </a>
+                                {% endif %}
+
+
+                               
                             </p>
                             {% endif %}
-                           
                         </div>
                     </div>
                     <div class="swiper-slide-bg" style="background-image: url('{{site.baseurl}}/{{slide.image }}');"></div>
