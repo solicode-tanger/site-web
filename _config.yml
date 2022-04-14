@@ -2,7 +2,7 @@ destination: docs
 locale: fr_FR
 title: SoliCode
 description: SoliCode est une école de codage à Tanger
-baseurl: "/site-web"
+baseurl: ""
 permalink: /:title/
 include: ["_pages"]
 environment: production
