@@ -1,0 +1,222 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+/* - Basic */
+/* - Typography */
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+/* - Basic Layout Styles */
+/* - Helper Classes */
+/* - Sections */
+/* - Columns & Grids */
+/* - Flex Slider */
+/* - Swiper Slider */
+/* - Top Bar */
+/* - Header */
+
+	#header {
+		background-color: #3945ba  !important ;
+		border-bottom: 1px solid transparent;
+	}
+	#header-wrap {
+		background-color: transparent;
+		border-bottom: 1px solid rgba(0,0,0,0.05) !important;
+	 
+	}
+
+	#logo img {
+		height: 70px !important;
+	}
+	
+	#header-wrap #logo img {
+		height: 30px;
+	}
+	@media (min-width: 992px){
+		#header #header-wrap { 
+			border-bottom-color: rgba(0,0,0,0.05) !important; 
+		}
+
+		.sticky-header #header-wrap {
+			background-color: #3945ba  ;
+			box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+		}
+	}
+
+	#top-social a,.top-links-item > a {
+		color: #fff ;
+	}
+	
+	#header,#top-bar{
+		background-color: #3945ba  !important ;
+		
+	}
+	.menu-link{
+		color: #fff ;
+	}
+	
+	.menu-item:hover > .menu-link,
+	.menu-item.current > .menu-link {
+		color: #F2B705;
+	}
+	.menu-item:hover > .button-yellow{
+		color: #fff;
+	}
+	
+	
+	/* - Logo */
+
+	@media (min-width: 992px) {
+
+		.full-header #logo {
+		
+			 border-right: 1px solid #EEE; 
+		}
+	}
+
+
+	/* - Primary Menu */
+.svg-trigger path {
+	stroke: #fff;
+}
+	/* - Mega Menu */
+	/* - Top Search */
+	/* - Top Cart */
+	/* - Sticky Header */
+	/* - Page Menu */
+	/* - Side Header */
+/* - Side Panel */
+/* - Slider */
+
+/* Slider Caption
+-----------------------------------------------------------------*/
+.slider-caption h2 {
+    font-size: 3rem !important;
+	text-transform: none !important;
+}
+
+.slider-caption:not(.dark),
+.slider-caption:not(.dark) h2 {
+	color: #fff;
+	text-shadow: none;
+}
+
+
+/* page-title */
+#page-title {
+	padding: 1.5rem 0 !important;
+}
+#page-title h1{
+	text-transform: none !important;
+}
+/* - Content */
+/* - Portfolio */
+/* - Blog */
+/* - Shop */
+/* - Events */
+/* - Shortcodes */
+	/* - Countdown */
+	/* - Buttons */
+	.button-light.button-yellow:not(.button-border) { background-color: #F2B705 !important; }
+	/* - Promo Boxes */
+	/* - Featured Boxes */
+
+ 
+	
+	.fbox-plain .fbox-icon i {
+		color: #F2B705;
+	
+	}
+	.fbox-plain .fbox-icon i:hover {
+		color: #3945ba !important;
+	
+	}
+
+	.fbox-content h3 {
+		font-size: 1.25rem;
+		color: #3945ba;
+	}
+	
+	.fbox-content p {
+		margin-top: 0.5rem;
+		margin-bottom: 0px;
+		color: #555;
+	}
+	
+	/* - Process Steps */
+	/* - Styled Icons */
+	.i-plain {
+		color: #F2B705;
+
+	}
+	/* - Toggles */
+	/* - Accordions */
+	/* - Tabs */
+	/* - Side Navigation */
+	/* - FAQ List */
+	/* - Clients */
+	/* - Testimonials */
+	/* - Team */
+	/* - Pricing Boxes */
+	/* - Counter */
+	/* - Animated Rounded Skills */
+	/* - Skills Bar */
+	/* - Dropcaps & Highlights */
+	/* - Quotes & Blockquotes */
+	/* - Text Rotater */
+/* - Owl Carousel */
+/* - Overlays */
+/* - Forms */
+/* - Google Maps */
+/* - Heading Styles */
+/* - Divider */
+/* - Magazine Specific Classes */
+/* - Go To Top */
+/* - Error 404 */
+/* - Landing Pages */
+/* - Preloaders */
+/* - Footer */
+/* - Widgets */
+	/* - Tag Cloud */
+	/* - Links */
+	/* - Testimonial & Twitter */
+	/* - Quick Contact Form */
+	/* - Newsletter */
+	/* - Twitter Feed */
+	/* - Navigation Tree */
+/* - Wedding */
+/* - Bootstrap Specific */
+/* - Cookie Notification */
+/* - Stretched Layout */
+/* - Page Transitions */
+/* - Youtube Video Backgrounds */
+
+
+#section-apropos p {
+	text-align: justify !important;
+}
+
+.page-section h2 {
+	text-transform: uppercase;
+}
+
+#section-about p {
+	text-align: justify;
+}
+ 
+.text-justify{
+	text-align: justify !important;
+}
+
+#section-contact address {
+	margin-bottom: 0px !important;
+}
+ 
+
+
+
+
