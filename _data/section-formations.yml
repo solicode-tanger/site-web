@@ -6,11 +6,11 @@ formations:
       techniques d'une application web.
     image: images/web_illustrations.png
     button-label: Plus d'informations
-    button-lien: formation-developpeur-web
+    button-lien: 
   - titre : Développement Mobile
     description: >
       Le développeur mobile effectue la réalisation technique et le développement 
       informatique d'applications mobiles.
     image: images/mobile_illustrations.png
     button-label: Plus d'informations
-    button-lien: formation-developpeur-mobile
+    button-lien: 

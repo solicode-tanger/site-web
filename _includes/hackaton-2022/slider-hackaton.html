@@ -1,0 +1,47 @@
+<section id="slider-hackaton" class="slider-element slider-parallax swiper_wrapper min-vh-60 min-vh-md-100 include-header">
+    <div class="slider-inner">
+        <div class="swiper-container swiper-parent">
+            <div class="swiper-wrapper">
+                {% for slide in include.slides %}
+                <div class="swiper-slide">
+                    <div class="container">
+                        <div class="slider-caption  ">
+                            <h2 data-animate="fadeInUp" >{{slide.titre }}</h2>
+                            <div class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">
+                                {{slide.description | markdownify }}
+                            </div>
+                            {% if slide.button-action-label != nil %}
+                            <p data-animate="fadeInUp" data-delay="200">
+
+
+                                {% if slide.button-action-lien contains 'http' %}
+                                <a href="{{slide.button-action-lien }}" target="_blank" class="button button-3d  button-large button-rounded button-yellow  button-light   ">
+                                    {{slide.button-action-label }}
+                                </a>
+                                {% else %}
+                                <a href="{{site.baseurl}}/{{slide.button-action-lien }}" class="button button-3d  button-large button-rounded button-yellow  button-light   ">
+                                    {{slide.button-action-label }}
+                                </a>
+                                {% endif %}
+
+
+                               
+                            </p>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="swiper-slide-bg" style="background-image: url('{{site.baseurl}}/{{slide.image }}');"></div>
+                </div>
+                {% endfor %}
+            </div>
+            <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+            <div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+        </div>
+        <a href="#" data-scrollto="#content" data-offset="100" class="one-page-arrow dark"><i class="icon-angle-down infinite animated fadeInDown"></i></a>
+    </div>
+</section>
+
+
+ 
+
+
