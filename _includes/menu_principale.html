@@ -1,25 +1,48 @@
-<header id="header" class="full-header transparent-header" data-sticky-class="not-dark"
- data-menu-padding="8" data-sticky-menu-padding="8">
+<header id="header" class="transparent-header header-size-sm" data-sticky-class="not-dark" data-responsive-class="not-dark" data-menu-padding="28">
     <div id="header-wrap" class="">
         <div class="container">
-            <div class="header-row top-search-parent">
+            <div class="header-row">
 
+                <img src="{{site.baseurl}}/images/logo/ofppt-logo.svg" alt="OFPPT" style="width:80px;margin-right: 10px;">
                 <div id="logo">
-                    <a href="/" class="standard-logo" data-dark-logo="/images/logo/logo-solicode.svg"><img src="{{site.baseurl}}/images/logo/logo-solicode.svg" alt="SoliCode"></a>
-                    <a href="/" class="retina-logo" data-dark-logo="/images/logo/logo-solicode.svg"><img src="{{site.baseurl}}/images/logo/logo-solicode.svg" alt="SoliCode"></a>
-                </div>
-
-                <div class="header-misc">
-
-     
+                    <a href="/" class="standard-logo" data-dark-logo="{{site.baseurl}}/images/logo/logo-solicode.svg"><img src="{{site.baseurl}}/images/logo/Solicode_logo_without_slogan_for_white_BG.svg" alt="SoliCode"></a>
+                    <a href="/" class="retina-logo" data-dark-logo="{{site.baseurl}}/images/logo/logo-solicode.svg"><img src="{{site.baseurl}}/images/logo/Solicode_logo_without_slogan_for_white_BG.svg" alt="SoliCode"></a>
                 </div>
 
                 <div id="primary-menu-trigger">
                     <svg class="svg-trigger" viewBox="0 0 100 100"><path d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"></path><path d="m 30,50 h 40"></path><path d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"></path></svg>
                 </div>
-                {% include navigation.html %}
+                <nav class="primary-menu style-4 menu-spacing-margin">
+                    <ul class="{% if page.url == '/' %}one-page-menu{% endif %} menu-container" data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
+                      {% for menu_item in site.data.menu %}
+                      <li class="menu-item">
+                       
+                        {% if menu_item.lien == nil  %}
+                        <!-- <a class="menu-link" href="{{site.baseurl}}/#{{menu_item.reference}}" data-href="#{{menu_item.reference}}" style="padding-top: 27px; padding-bottom: 27px;">
+                          <div><i class="{{menu_item.icon}}"></i>{{menu_item.label}}<i class="icon-angle-down"></i></div>
+                        </a> -->
+                        <a class="menu-link" href="{{site.baseurl}}/#{{menu_item.reference}}" data-href="#{{menu_item.reference}}" >
+                          <div>{{menu_item.label}}</div>
+                        </a>
+                        {% else%}
+                        <!-- <a class="menu-link button  button-rounded button-yellow button-light " href="{{site.baseurl}}/{{menu_item.lien}}"  style="padding-top: 27px; padding-bottom: 27px;">
+                          <div><i class="{{menu_item.icon}}"></i>{{menu_item.label}}<i class="icon-angle-down"></i></div>
+                        </a> -->
+                        <a class="menu-link button  button-rounded button-yellow button-light " href="{{menu_item.lien}}" >
+                          <div></i>{{menu_item.label}}</div>
+                        </a>
+                        {% endif %}
+                      </li>
+                      {% endfor %}
+                   
+                    </ul>
+                </nav>
+                   
             </div>
         </div>
     </div>
     <div class="header-wrap-clone" style="height: 101px;"></div>
 </header>
+
+
+ 

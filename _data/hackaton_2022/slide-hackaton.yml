@@ -1,0 +1,11 @@
+# Le champ description accepte le format Markdown
+# le button action peut être supprimer
+
+titre1: 25 Mai
+titre2: à SoliCode
+titre3: SoliHackathon 22
+description: > 
+  Rejoignez-nous le **25 Mai** prochain à Solicode Tanger! 
+image: images/slides/slide4.jpg
+button-action-label: Inscription à hackathon
+button-action-lien: https://forms.gle/j7cxXPHMEULchCEB9

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="{{ site.locale | default: "en-US" }}">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="author" content="Les apprenants de SoliCode" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {% seo %}
+	<link
+		href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700|IBM+Plex+Serif:300,400,500,600&display=swap"
+		rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/css/bootstrap.css" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/style.css" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/css/colors.css">
+	<link rel="stylesheet" href="{{site.baseurl}}/css/swiper.css" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/css/dark.css" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/css/font-icons.css" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/css/animate.css" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/css/magnific-popup.css" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/css/youtube-overlay.css" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/css/aos.css" type="text/css" />
+	<link rel="stylesheet" href="{{site.baseurl}}/css/custom1.css" type="text/css" />
+    {% if site.environment == 'production' %}
+        <!-- Google Analytics -->
+    {% endif %}
+</head>
+<body class="stretched">
+<div id="wrapper" class="clearfix">
+    {% include menu_principale3.html %}
+    {{ content }}
+    {% include footer.html %}
+</div>
+<div id="gotoTop" class="icon-angle-up"></div>
+<script src="{{site.baseurl}}/js/jquery.js"></script>
+<script src="{{site.baseurl}}/js/plugins.min.js"></script>
+<script src="{{site.baseurl}}/js/functions.js"></script>
+<script src="{{site.baseurl}}/js/aos.js"></script>
+<script src="{{site.baseurl}}/js/youtube-overlay.js"></script>
+<script>
+	AOS.init();
+</script>
+<script>
+	var img = $("#solicodevid ");
+  var configObject = {
+	sourceUrl: img.attr("data-videourl"),
+	triggerElement: "#" + img.attr("id"),
+	progressCallback: function() {
+	  console.log("Callback Invoked.");
+	}
+  };
+  
+  var videoBuild = new YoutubeOverlayModule(configObject);
+	videoBuild.activateDeployment();
+
+	var img2 = $("#solicodevid2 ");
+  var co = {
+	sourceUrl: img2.attr("data-videourl"),
+	triggerElement: "#" + img2.attr("id"),
+	progressCallback: function() {
+	  console.log("Callback Invoked.");
+	}
+  };
+  
+  var vide = new YoutubeOverlayModule(co);
+	vide.activateDeployment();
+
+
+  </script>
+
+</body>
+</html>
