@@ -3,10 +3,10 @@
         <div class="swiper-container swiper-parent">
             <div class="swiper-wrapper">
                 {% for slide in include.slides %}
-                <div class="swiper-slide dark">
+                <div class="swiper-slide {{slide.dark}} ">
                     <div class="container">
                         <div class="slider-caption  ">
-                            <h2 data-animate="fadeInUp" >{{slide.titre }}</h2>
+                            <h2 data-animate="fadeInUp" >{{slide.titre }} </h2>
                             <div class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">
                                 {{slide.description | markdownify }}
                             </div>

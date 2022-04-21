@@ -102,7 +102,7 @@ body {
 
 #slider .slider-caption:not(.dark),
 #slider .slider-caption:not(.dark) h2 {
-	color: #fff;
+	/* color: #fff; */
 	text-shadow: none;
 }
 
