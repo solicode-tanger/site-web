@@ -13587,6 +13587,14 @@ h3.titular-title { font-size: 2rem; }
 	color: #333;
 }
 
+.heading-block-costumize h2 {
+	margin-bottom: 0;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #3A45B9;
+}
+
 .emphasis-title h1,
 .emphasis-title h2 {
 	font-weight: 400;
