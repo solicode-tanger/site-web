@@ -7,7 +7,8 @@
     Etes-vous passionné par les nouvelles technologies?
     Etes-vous tenté de participer à une compétition digitale?
     Rejoignez-nous le **25 Mai** prochain à Solicode Tanger!
-  image: images/slides/hackathon-background.png
+  image: images/slides/hero-2.png
+  dark: 
   button-action-label: Informations et inscription
   button-action-lien: hackathon-2022
 - reference : slide1
@@ -17,5 +18,6 @@
     Vous êtes motivé, passionné par les technologies digitales?
     Inscrivez-vous maintenant!
   image: images/slides/slide1.jpg
+  dark: dark
   button-action-label: Je m'inscris!
   button-action-lien: https://system.solicode.co/inscription
