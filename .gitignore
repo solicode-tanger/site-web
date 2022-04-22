@@ -5,4 +5,4 @@ _site
 vendor
 _docs_development
 _docs_development/feed.xml
-Gemfile.lock
+*.lock
