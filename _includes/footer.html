@@ -1,94 +1,39 @@
 <footer id="footer" class="dark">
-    <div class="container">
-        <div class="footer-widgets-wrap">
-            <div class="row col-mb-50">
-                <div class="col-lg-8">
-                    <div class="row col-mb-50">
-                        <div class="col-md-4">
-                            <div class="widget clearfix">
-                                <img src="{{site.baseurl}}/images/logo/logo-solicode.svg" alt="Image" class="footer-logo">
-                                <p>
-                                    Nous nous sentons extrêmement chanceux d'avoir eu la volonté  et l'opportunité d'apprendre à programmer .
-                                </p>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="widget widget_links clearfix">
-                                <h4>Menu</h4>
-                                <ul class="{% if page.url == '/' %}one-page-menu{% endif %}" 
-                                data-easing="easeInOutExpo" data-speed="1250" data-offset="65">
-                                    {% for menu_item in site.data.menu %}
-                                    <li>
-                                      {% if menu_item.lien == nil  %}
-                                      <a  href="{{site.baseurl}}/#{{menu_item.reference}}" data-href="#{{menu_item.reference}}">
-                                        {{menu_item.label}}
-                                      </a>
-                                      {% else%}
-                                      <a  href="{{site.baseurl}}/{{menu_item.lien}}">
-                                       {{menu_item.label}}
-                                      </a>
-                                      {% endif %}
-                                    </li>
-                                    {% endfor %}
-                                </ul>
- 
-                            </div>
-                        </div>
-                       
-                    </div>
-                </div>
-                <div class="col-lg-4">
-                    <div class="row col-mb-50">
-                       
-                        <div class="col-md-3 col-lg-12">
-                            <div class="widget clearfix" style="margin-bottom: -20px;">
-                                <div class="row">
-
-                                    {% for reseau in  site.data.reseau-sociaux %}
-                                    <div class="col-6 col-md-12 col-lg-6 clearfix bottommargin-sm">
-                                        <a target="_blank" href="{{reseau.lien}}" class="social-icon si-dark si-colored si-{{reseau.reference}} mb-0" style="margin-right: 10px;">
-                                            <i class="{{reseau.icone}}"></i>
-                                            <i class="{{reseau.icone}}"></i>
-                                        </a>
-                                        <a target="_blank" href="{{reseau.lien}}"><small style="display: block; margin-top: 3px;">{{reseau.label}}</small></a>
-                                    </div>
-                                    {% endfor %}
-
-                                   
-                                   
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div id="copyrights">
         <div class="container">
-            <div class="row col-mb-30">
-                <div class="col-md-6 text-center text-md-left">
-                    Copyrights &copy; 2021 All Rights Reserved by SoliCode<br>
-                </div>
-                <div class="col-md-6 text-center text-md-right">
-                    <div class="d-flex justify-content-center justify-content-md-end">
-                        <a href="#" target="_blank" class="social-icon si-small si-borderless si-youtube">
-                            <i class="icon-youtube"></i>
-                            <i class="icon-youtube"></i>
-                        </a>
 
-                        <a href="#" target="_blank" class="social-icon si-small si-borderless si-facebook">
-                            <i class="icon-facebook"></i>
-                            <i class="icon-facebook"></i>
+            <div class="row justify-content-between col-mb-30">
+                <div class="col-12 col-lg-auto  text-lg-left order-last order-lg-first">
+                    <img id="footer-logo" src="{{site.baseurl}}/images/logo/logo-solicode.svg" alt="Image" class=""><br>
+                    Copyrights &copy; 2021 All Rights Reserved by SoliCode.
+                </div>
+
+
+                <div class="col-12 col-lg-auto text-center text-lg-right">
+                    <div class="copyrights-menu copyright-links">
+                        {% for menu_item in site.data.menu %}
+                        {% if menu_item.lien == nil  %}
+                        <a href="{{site.baseurl}}/#{{menu_item.reference}}" data-href="#{{menu_item.reference}}">
+                            {{menu_item.label}}
                         </a>
-                        <a href="#" target="_blank" class="social-icon si-small si-borderless si-github">
-                            <i class="icon-github"></i>
-                            <i class="icon-github"></i>
+                        {% else%}
+                        <a href="{{menu_item.lien}}">
+                            {{menu_item.label}}
                         </a>
+                        {% endif %}
+                        {% endfor %}
                     </div>
-                    
+                    {% for reseau in  site.data.reseau-sociaux %}
+                    <a href="{{reseau.lien}}"
+                        class="social-icon inline-block si-small si-borderless mb-0 si-{{reseau.reference}}">
+                        <i class="{{reseau.icone}}"></i>
+                        <i class="{{reseau.icone}}"></i>
+                    </a>
+                    {% endfor %}
+
                 </div>
             </div>
+
         </div>
     </div>
 </footer>
