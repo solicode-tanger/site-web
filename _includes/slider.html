@@ -9,6 +9,7 @@
                             <h2 data-animate="fadeInUp" >{{slide.titre }} </h2>
                             <div class="d-none d-sm-block" data-animate="fadeInUp" data-delay="200">
                                 {{slide.description | markdownify }}
+
                             </div>
                             {% if slide.button-action-label != nil %}
                             <p data-animate="fadeInUp" data-delay="200">
@@ -23,6 +24,11 @@
                                     {{slide.button-action-label }}
                                 </a>
                                 {% endif %}
+
+                                <!-- Hackathon 2023 Button -->
+                                <a href="{{site.baseurl}}/{{slide.button-action-lien }}" class="button button-3d  button-large button-rounded button-yellow  button-light   ">
+                                    SoliCode Mini-Hackathon 2023
+                                </a>
 
 
                                
