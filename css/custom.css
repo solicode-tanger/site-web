@@ -239,13 +239,13 @@ body {
 	position: absolute;
 	left: -2px;
 	top: -2px;
-	background: linear-gradient(45deg, #0000ff, #fb0094, #00ff00,#ffff00, #ff0000, #fb0094, 
-		#0000ff, #00ff00,#ffff00, #ff0000, #0000ff);
+	background: linear-gradient(45deg,
+	#0000ff,#ff6200, #ffff00, #ff6200, #0000ff,#ff6200, #ffff00, #ff6200, #0000ff,#ff6200, #ffff00, #ff6200);
 	background-size: 400%;
 	width: calc(100% + 4px);
 	height: calc(100% + 4px);
 	z-index: -1;
-	animation: steam 20s linear infinite;
+	animation: steam 30s linear infinite;
 }
 
 @keyframes steam {
