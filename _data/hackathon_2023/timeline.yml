@@ -1,0 +1,16 @@
+- title: Announcement
+  time: "9:00"
+  icon: <i class="ri-file-text-line text-2xl"></i>
+
+- title: Kick Off
+  time: "11:00"
+  icon: <i class="ri-flag-2-line text-2xl"></i>
+
+- title: Launch
+  time: "14:00"
+  icon: <i class="ri-cup-line text-2xl"></i>
+
+- title: Winner
+  time: "18:00"
+  icon: <i class="ri-award-line text-2xl"></i>
+

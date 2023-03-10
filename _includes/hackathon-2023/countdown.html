@@ -1,43 +1,37 @@
-<link href="https://cdn.jsdelivr.net/npm/daisyui@2.51.3/dist/full.css" rel="stylesheet" type="text/css" />
-<script src="https://cdn.tailwindcss.com"></script>
-
-<div class="bg-gradient-to-r from-violet-500 to-fuchsia-500">
-
-
-  <div class="grid grid-flow-col gap-5 text-center auto-cols-max justify-center pt-6 pb-8">
-    <div class="flex flex-col p-2 bg-yellow-400 rounded-box text-neutral-content justify-center">
-      <span id="days" class="countdown font-mono text-5xl">
-        <span style="--value:15;"></span>
+<div
+  class="fixed top-0 bg-gradient-to-r from-rose-400/75 via-fuchsia-500/75 to-indigo-600/75 z-[9999] w-full py-3 flex justify-center uppercase text-xs font-semibold backdrop-blur-sm"
+>
+  <div class="flex gap-5 text-white">
+    <div>
+      <span class="countdown font-mono text-3xl" id="days">
+        <span></span>
       </span>
-      Jours
-    </div> 
-    <div class="flex flex-col p-2 bg-yellow-400 rounded-box text-neutral-content">
-      <span id="hours" class="countdown font-mono text-5xl">
-        <span style="--value:10;"></span>
+      days
+    </div>
+    <div>
+      <span class="countdown font-mono text-3xl" id="hours">
+        <span></span>
       </span>
-      Heures
-    </div> 
-    <div class="flex flex-col p-2 bg-yellow-400 rounded-box text-neutral-content">
-      <span id="minutes" class="countdown font-mono text-5xl">
-        <span style="--value:24;"></span>
+      hours
+    </div>
+    <div>
+      <span class="countdown font-mono text-3xl" id="minutes">
+        <span></span>
       </span>
       min
-    </div> 
-    <div class="flex flex-col p-2 bg-yellow-400 rounded-box text-neutral-content">
-      <span id="seconds" class="countdown font-mono text-5xl">
-        <span style="--value:45;"></span>
+    </div>
+    <div>
+      <span class="countdown font-mono text-3xl" id="seconds">
+        <span></span>
       </span>
       sec
     </div>
   </div>
 </div>
 
-
-
-<!-- Can be imported from JS folder or just leave it here. -->
 <script>
-  const countdownDate = new Date('2023-05-25T00:00:00Z').getTime();
-  setInterval(() => {
+  const countdownDate = new Date('2023-05-25T07:00:00Z').getTime();
+  const countDown = () => {
     const now = new Date().getTime();
     const timeRemaining = countdownDate - now;
     const days = Math.floor(timeRemaining / (1000 * 60 * 60 * 24));
@@ -48,5 +42,9 @@
     document.getElementById('hours').innerHTML = '<span style="--value:' + hours + ';"></span>';
     document.getElementById('minutes').innerHTML = '<span style="--value:' + minutes + ';"></span>';
     document.getElementById('seconds').innerHTML = '<span style="--value:' + seconds + ';"></span>';
+  }
+  countDown()
+  setInterval(() => {
+    countDown()
   }, 1000);
 </script>
