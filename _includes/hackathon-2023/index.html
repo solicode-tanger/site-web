@@ -1,20 +1,373 @@
----
-layout: layout_hackathon
----
+<!-- Header -->
+<nav
+  class="navbar navbar-expand-lg navbar-dark position-absolute start-0 end-0 top-0 index-2 py-lg-0 py-3"
+>
+  <div class="container-fluid">
+    <a href="#0">
+      <picture>
+        <img
+          src="/assets/hackathon-2023/images/logo.png"
+          width="200px"
+          alt="Solicode Tanger"
+        />
+      </picture>
+    </a>
+    <button
+      class="navbar-toggler collapsed border-0 shadow-none ms-md-4 ms-3 p-0"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#bileetNav9"
+      aria-controls="bileetNav9"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="bileetNav9">
+      <ul class="navbar-nav mx-auto align-items-lg-center mb-3 mb-lg-0"></ul>
+      <div class="d-flex align-items-center gap-3">
+        <a href="#" class="btn btn-light btn-sm rounded-pill"> Inscription </a>
+      </div>
+    </div>
+  </div>
+</nav>
 
-{% include hackathon-2023/countdown.html %}
-{% include hackathon-2023/header.html %}
+<!-- Banner -->
+<section
+  class="text-center text-white overflow-hidden position-relative index-0"
+>
+  <img
+    class="w-100 start-0 position-absolute top-0 index-0"
+    src="/assets/hackathon-2023/images/background1.png"
+    width="1920"
+    height="641"
+  />
+  <div class="container position-relative index-1 pb-md-2 mt-lg-5 pt-lg-4 pt-5">
+    <div class="col-lg-9 mx-auto">
+      <h1
+        class="mb-3"
+        data-aos="fade-up"
+        data-aos-delay="50"
+        data-aos-duration="800"
+      >
+        Bienvenue à Soli-Hackathon Là où l'innovation prend vie!
+      </h1>
+      <p
+        class="fs-1"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="800"
+      >
+        Relevez des défis concrets en utilisant la technologie! Soli-Hackathon
+        vous invite à mettre en valeur votre créativité et vos compétences lors
+        de cet événement unique.
+      </p>
+      <div
+        class="d-flex align-items-center justify-content-center gap-3 pt-md-3 pt-2"
+        data-aos="fade-up"
+        data-aos-delay="150"
+        data-aos-duration="800"
+      >
+        <a href="#" class="btn btn-lg btn-warning rounded-pill hvr-grow"
+          >S'inscrire Maintenant!</a
+        >
+      </div>
+    </div>
+    <div
+      class="pt-md-5 pt-3 mt-3"
+      data-aos="fade-up"
+      data-aos-delay="200"
+      data-aos-duration="800"
+    >
+      <!-- Video -->
+      <div class="col-lg-8 mx-auto pb-md-4 pb-3">
+        <div
+          class="pb-2"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="800"
+        >
+          <span
+            class="badge badge-lg border-white text-white rounded-pill mb-md-1"
+            >VIDEO</span
+          >
+        </div>
+      </div>
+      <div
+        class="card bg-gradient-seven pb-0 text-center border-0 rounded-24"
+        data-aos="fade-up"
+        data-aos-delay="150"
+        data-aos-duration="800"
+      >
+        <div class="card-body p-0">
+          <img
+            src="/assets/hackathon-2023/images/video-thumbnail.jpg"
+            width="100%"
+            class="rounded-24"
+            alt="Solicode Promo Video"
+          />
+          <a
+            href="javascript:void(0)"
+            class="btn btn-play bg-white position-absolute d-flex align-items-center justify-content-center start-50 top-50 translate-middle d-block rounded-circle"
+            data-bs-toggle="modal"
+            data-bs-target="#bileetVideoModal"
+            data-modal-video="https://player.vimeo.com/video/829792055?h=a955d0c1aa&badge=0&autopause=0&player_id=0&app_id=58479&autoplay=1&quality=720p&controls=1"
+          >
+            <img
+              src="/assets/hackathon-2023/images/icon-play-dark.svg"
+              width="20"
+              height="24"
+              alt="Play"
+            />
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-<div class="pt-6">
-<div class="flex justify-center">
-    {% include hackathon-2023/sponsors.html %}
+<!-- Sponsors -->
+<section class="text-center text-black-40 sponsors p-0">
+  <div class="container">
+    <h2
+      class="fs-5 font-inter fw-normal l-spacing-normal pb-3"
+      data-aos="fade-up"
+      data-aos-delay="50"
+      data-aos-duration="800"
+    >
+      Notre Sponsors
+    </h2>
+    <div
+      class="row row-cols-lg-6 row-cols-3 g-4 align-items-center justify-content-center px-3"
+    >
+      <div class="col">
+        <a href="https://solicode.co/" target="_blank">
+          <div
+            class="card border-0 bg-transparent d-inline-flex"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="800"
+          >
+            <img
+              src="/assets/hackathon-2023/images/sponsors/solicode.png"
+              width="118"
+              height="39"
+            />
+          </div>
+        </a>
+      </div>
+      <div class="col">
+        <a href="https://www.d3hitech.ma/" target="_blank">
+          <div
+            class="card border-0 bg-transparent d-inline-flex"
+            data-aos="fade-up"
+            data-aos-delay="100"
+            data-aos-duration="800"
+          >
+            <img
+              src="/assets/hackathon-2023/images/sponsors/detroit.png"
+              width="100"
+              height="39"
+            />
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- About -->
+<section>
+  <div class="container text-white pt-0">
+    <div class="row justify-content-between align-items-center gy-md-5 gy-4">
+      <div class="col-lg-5">
+        <div class="pb-2">
+          <span
+            class="badge badge-lg border-white text-white rounded-pill mb-md-1"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="800"
+          >
+            SOLI-HACKATHON
+          </span>
+        </div>
+        <h3
+          class="pb-md-2"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-duration="800"
+        >
+          Suite au succès de la dernière édition du Soli-Hackathon 22'
+        </h3>
+        <p
+          class="text-black-40 mb-0"
+          data-aos="fade-up"
+          data-aos-delay="150"
+          data-aos-duration="800"
+        >
+          Le Centre Solidaire Digital de Tanger (SOLICODE TANGER) organisera le
+          15 juin 2023 un Mini-Hackathon appelé Soli-Hackathon 23’. Ce dernier
+          vise à réunir des étudiants passionnés par le développement Web de la
+          région de Tanger-Tétouan.
+        </p>
+      </div>
+      <div class="col-lg-6">
+        <img
+          src="/assets/hackathon-2023/images/section-1.svg"
+          alt="Feature"
+          width="450"
+          data-aos="fade-up"
+          data-aos-delay="50"
+          data-aos-duration="800"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Timeline -->
+<!-- <section class="my-lg-3 p-0 text-white">
+  <div class="container">
+    <div class="row justify-content-between align-items-center gy-md-5 gy-4">
+      <div class="col-lg-6 order-2">
+        <img src="/assets/hackathon-2023/images/timeline.png"  alt="Feature" width="450" data-aos="fade-up" data-aos-delay="50" data-aos-duration="800">
+      </div>
+      <div class="col-xl-5 col-lg-6 order-lg-2">
+        <div class="pb-2">
+          <span class="badge badge-lg border-light text-light rounded-pill mb-md-1" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">TIMELINE</span>
+        </div>
+        <h3 class="mb-0" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
+          Timeline
+        </h3>
+        <div class="accordion dark text-white" id="bileetTwo" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
+          <div class="accordion-item bg-transparent border-0">
+            <h2 class="accordion-header" id="headingOneDark">
+              <button class="accordion-button bg-transparent" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOneDark" aria-expanded="true" aria-controls="collapseOneDark">
+                -
+              </button>
+            </h2>
+            <div id="collapseOneDark" class="accordion-collapse collapse show" aria-labelledby="headingOneDark" data-bs-parent="#bileetTwo">
+              <div class="accordion-body">
+                <p class="fs-5">
+                  --
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+<!-- CTA Footer -->
+<section class="text-center py-lg-5 mt-lg-4">
+  <div class="container py-lg-3">
+    <div
+      class="card bg-gradient-four border-0 px-3 px-md-5 py-5 rounded-24 text-white"
+      data-aos="fade-up"
+      data-aos-delay="50"
+      data-aos-duration="800"
+    >
+      <div class="card-body px-0 py-2 p-lg-4">
+        <h4 class="card-title mb-md-3 pb-1 pb-md-0">
+          Libérer l'innovation : Susciter, imaginer et innover!
+        </h4>
+        <div class="row justify-content-center">
+          <div class="col-lg-9 col-xl-6">
+            <div class="d-flex justify-content-center">
+              <div class="col-md-4 ps-md-2">
+                <button type="submit" class="btn btn-dark mt-2 mt-md-0 w-100">
+                  S'inscrire
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer-dark pt-md-5 pt-4 mt-md-4">
+  <div class="container pt-md-2">
+    <div
+      class="d-flex justify-content-between align-items-center text-white py-5 pb-md-5 pb-4"
+    >
+      <a href="#">
+        <img src="/assets/hackathon-2023/images/logo.png" alt="Solicode" width="150px" />
+      </a>
+      <p class="mb-0 fs-6">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Solicode Tanger
+      </p>
+      <ul class="nav socials align-items-center gap-4 d-md-flex d-none mb-0">
+        <li>
+          <a href="https://www.facebook.com/solicodetanger/" target="_blank"
+            ><i class="ti ti-brand-facebook text-black-40 fs-3"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/company/solicode-tanger/"
+            target="_blank"
+            ><i class="ti ti-brand-linkedin text-black-40 fs-3"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.youtube.com/channel/UCX37OAYql3DnhA0EOOHu19w"
+            target="_blank"
+            ><i class="ti ti-brand-youtube text-black-40 fs-3"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/solicodetanger/" target="_blank"
+            ><i class="ti ti-brand-instagram text-black-40 fs-3"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://discord.gg/Ky9vDBdXaj" target="_blank"
+            ><i class="ti ti-brand-discord text-black-40 fs-3"></i
+          ></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+<!-- Video Modal -->
+<div
+  class="modal fade roun"
+  id="bileetVideoModal"
+  tabindex="-1"
+  role="dialog"
+  aria-hidden="true"
+>
+  <div class="modal-dialog modal-dialog-centered modal-xl" role="document">
+    <div class="modal-content border-0 rounded-24">
+      <div class="modal-body">
+        <div class="ratio ratio-16x9" style="height: 100vh">
+          <iframe
+            class="rounded-24"
+            id="videoIframe"
+            title="Video Player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-    <div class="flex justify-center pb-8">
-        {% include hackathon-2023/about.html %}
-    </div>
-    <div class="text-4xl text-white text-center"> Schedule & timeline : </div>
-    <div class="">
-        {% include hackathon-2023/timeline.html %}
-    </div>
-</div>
+<!-- Scripts -->
+<script src="/assets/hackathon-2023/plugins/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="/assets/hackathon-2023/plugins/vanilla-lazyload/lazyload.min.js"></script>
+<script src="/assets/hackathon-2023/plugins/swiper/swiper-bundle.min.js"></script>
+<script src="/assets/hackathon-2023/plugins/aos/aos.min.js"></script>
+<script src="/assets/hackathon-2023/js/custom.js"></script>
