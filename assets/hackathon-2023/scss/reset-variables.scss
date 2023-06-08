@@ -1,0 +1,205 @@
+// Brand Color Variables
+$brand-clr1: #FFE3D2;
+$brand-clr2: #18181E;
+$brand-clr3: #F88C6E;
+$brand-clr4: #DC657C;
+$brand-clr5: #0D0D0F;
+$brand-clr6: #F1F3F6;
+
+// Color Variables
+$primary: #0D6EFD;
+$blue-50: #E6F0FF;
+$blue-100: #A8CBFE;
+$blue-200: #81B4FE;
+$blue-300: #5A9CFE;
+$blue-400: #3485FD;
+$blue-500: #0D6EFD;
+$blue-600: #0B5CD5;
+$blue-700: #094BAC;
+$blue-800: #073984;
+$blue-900: #05285B;
+$indigo-50: #E9DDFD;
+$indigo-100: #C8A9FA;
+$indigo-200: #AF83F8;
+$indigo-300: #975CF6;
+$indigo-400: #7E36F4;
+$indigo-500: #6610F2;
+$indigo-600: #560DCB;
+$indigo-700: #450BA5;
+$indigo-800: #35087E;
+$indigo-900: #250657;
+$purple-50: #E9DDFF;
+$purple-100: #CBBBE9;
+$purple-200: #B49DDF;
+$purple-300: #9D7ED5;
+$purple-400: #8660CB;
+$purple-500: #6F42C1;
+$purple-600: #5D37A2;
+$purple-700: #4B2D83;
+$purple-800: #3A2264;
+$purple-900: #281845;
+$pink-50: #FFDDEE;
+$pink-100: #F0B6D3;
+$pink-200: #EA95BF;
+$pink-300: #E374AB;
+$pink-400: #DD5498;
+$pink-500: #B33674;
+$pink-600: #A12864;
+$pink-700: #92235A;
+$pink-800: #6F1B45;
+$pink-900: #4D1230;
+$red-50: #FFE0E3;
+$red-100: #F2B6BC;
+$red-200: #ED969E;
+$red-300: #E77681;
+$red-400: #E25563;
+$red-500: #DC3545;
+$red-600: #B92D3A;
+$red-700: #96242F;
+$red-800: #721C24;
+$red-900: #4F1319;
+$orange-50: #FFEAD8;
+$orange-100: #FED1AA;
+$orange-200: #FEBC85;
+$orange-300: #FEA75F;
+$orange-400: #FD933A;
+$orange-500: #FD7E14;
+$orange-600: #D56A11;
+$orange-700: #AC560E;
+$orange-800: #84420A;
+$orange-900: #5B2D07;
+$yellow-50: #FBF0CD;
+$yellow-100: #FFE9A6;
+$yellow-200: #FFDF7E;
+$yellow-300: #FFD556;
+$yellow-400: #FFCB2F;
+$yellow-500: #FFC107;
+$yellow-600: #D6A206;
+$yellow-700: #AD8305;
+$yellow-800: #856404;
+$yellow-900: #5C4503;
+$green-50: #DCF4E1;
+$green-100: #ACD4C1;
+$green-200: #87C1A6;
+$green-300: #63AD8B;
+$green-400: #3E9A6F;
+$green-500: #198754;
+$green-600: #157147;
+$green-700: #115C39;
+$green-800: #0D462C;
+$green-900: #09311E;
+$teal-50: #DCFFF5;
+$teal-100: #AFECDA;
+$teal-200: #8BE3C9;
+$teal-300: #67DAB8;
+$teal-400: #44D2A8;
+$teal-500: #20C997;
+$teal-600: #1BA97F;
+$teal-700: #168967;
+$teal-800: #11694F;
+$teal-900: #0C4836;
+$cyan-50: #DAFBFF;
+$cyan-100: #A8ECFA;
+$cyan-200: #81E3F7;
+$cyan-300: #5ADBF5;
+$cyan-400: #34D2F2;
+$cyan-500: #0DCAF0;
+$cyan-600: #0BAACA;
+$cyan-700: #0989A3;
+$cyan-800: #07697D;
+$cyan-900: #054956;
+
+$text-secondary: #3E3E59;
+$text-dark: #212121;
+$text-black: #121212;
+$bg-dark: #18181E;
+$bg-light: #E6F0FF;
+$moderate-yellow: #B6D35C;
+$orange-lite: #FF753D;
+$blue-dark: #6BB8E0;
+$green-light: #7FE06B;
+$pink-light: #FF7ECC;
+
+$dark-black: #343434;
+$black-100: #FAFAFB;
+$black-200: #F5F5F5;
+$black-300: #EAEAEA;
+$black-400: #C4C4C4;
+$black-500: #807E7E;
+$black-600: #605F5F;
+$black-700: #3F3B3B;
+$black-800: #212121;
+$black-900: #121212;
+
+$gray-100: #FAFAFB;
+$gray-200: #F5F5F5;
+$gray-300: #EAEAEA;
+$gray-400: #C4C4C4;
+$gray-500: #807E7E;
+$gray-600: #605F5F;
+$gray-700: #3F3B3B;
+$gray-800: #212121;
+$gray-900: #121212;
+
+$white:#ffffff;
+
+// Bg Gradient Variables
+$bg-gradient-one: linear-gradient(180deg,  rgba(212, 53, 255,1) 0%,rgba(255, 223, 183,1) 100%);
+$bg-gradient-two: linear-gradient(155deg,  rgba(0, 86, 255,1) 0%,rgba(159, 255, 213,1) 100%);
+$bg-gradient-three: linear-gradient(160deg,  rgba(255, 193, 7, 1) 60%,rgba(255, 65, 25,1) 200%);
+$bg-gradient-four: linear-gradient(170deg,  rgba(255,83,106,1) 30%,rgba(255,208,140,1) 100%);
+$bg-gradient-five: linear-gradient(165deg,  rgba(150,0,192,1) 30%,rgba(103,63,238,1) 100%);
+$bg-gradient-six: linear-gradient(120deg,  rgba(150,0,192,1) 20%,rgba(80,93,203,1) 100%);
+$bg-gradient-seven: linear-gradient(165deg,  rgba(92,15,218,1) 10%,rgba(255,208,140,1) 100%);
+
+// Border Gradient Variables
+$border-gradient-one: linear-gradient(to right,  rgba(171, 240, 255, 1) 0%,rgba(171,240,255,1) 20%,rgba(235, 172, 255, 1) 20%,rgba(235,172,255,1) 40%,rgba(190, 199, 255, 1) 40%,rgba(190,199,255,1) 60%,rgba(255, 152, 137, 1) 60%,rgba(255, 152, 137, 1) 80%,rgba(255, 229, 127, 1) 80%,rgba(255, 229, 127, 1) 100%);
+$border-gradient-three: linear-gradient(to right,  rgba(171,240,255,1) 0%,rgba(171,240,255,1) 14%,rgba(235,172,255,1) 14%,rgba(235,172,255,1) 29%,rgba(194,255,171,1) 29%,rgba(194,255,171,1) 42%,rgba(190,199,255,1) 42%,rgba(190,199,255,1) 57%,rgba(255,229,127,1) 57%,rgba(255,229,127,1) 70%,rgba(255,152,137,1) 70%,rgba(255,152,137,1) 84%,rgba(171,255,212,1) 84%,rgba(171,255,212,1) 100%);
+
+// Fonts Variables
+$inter: 'Inter', sans-serif;
+$syne: 'Syne', sans-serif;
+
+// Headings Variables
+$heading1: 5rem;
+$heading2: 4.5rem;
+$heading3: 3rem;
+$heading4: 2.5rem;
+$heading5: 1.875rem;
+$heading6: 1.25rem;
+
+// Font Size Variables
+$font-size1: 1.625rem;
+$font-size2: 1.375rem;
+$font-size3: 1.25rem;
+$font-size4: 1.125rem;
+$font-size5: 1rem;
+$font-size6: 0.875rem;
+$font-size7: 0.75rem;
+
+// Letter Spacing Variables
+$letter-sp1: -1px;
+$letter-sp2: -0.6px;
+$letter-sp3: -0.4px;
+$letter-sp0: normal;
+
+// Rounded Variables
+$rounded-8: 0.5rem;
+$rounded-12: 0.75rem;
+$rounded-20: 1.25rem;
+$rounded-24: 1.5rem;
+$rounded-44: 2.75rem;
+
+// Font Weight Variables
+$font-weight-normal: 400;
+$fw-medium: 500;
+$fw-semibold: 600;
+
+// Box Shadow Variables
+$shadow1: 0px 2px 13px rgba(0, 0, 0, 0.04);
+$shadow2: 0px 8px 16px rgba(0, 0, 0, 0.0364401);
+$shadow3: 0px 12px 16px rgba(0, 0, 0, 0.0364401);
+$shadow4: 0px 8px 24px rgba(0, 0, 0, 0.08);
+
+// Transitions Variables
+$transition: .4s ease;
