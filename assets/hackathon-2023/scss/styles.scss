@@ -1,0 +1,22 @@
+@charset 'UTF-8';
+/* SASS compile - in assets folder run : SASS --watch scss/style.scss:css/style.css
+ * 1. Bootstrap
+ * 2. Tabler
+ * 3. AOS
+ * 4. Hover Master 
+ * 5. Reset variables */
+
+// 1. Bootstrap
+@import 'bootstrap/bootstrap';
+
+// 2. Tabler
+@import 'tabler-icons/tabler-icons';
+
+// 3. AOS
+@import '../plugins/aos/sass/aos.scss';
+
+// 4. Hover Master
+@import '../plugins/hover-master/sass/hover.scss';
+
+// 5 Intl Tel Input Master
+@import '../plugins/intl-tel-input/sass/intlTelInput.scss';
