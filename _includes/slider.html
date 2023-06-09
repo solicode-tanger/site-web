@@ -24,6 +24,12 @@
                                 </a>
                                 {% endif %}
 
+                                {% if slide.second-button-displayed == true %}
+                                    <!-- Second Button -->
+                                    <a href="{{ slide.second-button-lien }}" class="button button-large button-rounded border-0 button-border-animation" target="_blank">
+                                        {{ slide.second-button-label }}
+                                    </a>
+                                {% endif %}
 
                                
                             </p>
