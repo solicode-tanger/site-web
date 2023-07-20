@@ -21,6 +21,6 @@
   dark: dark
   button-action-label: Je m'inscris!
   button-action-lien: https://system.solicode.co/inscription
-  second-button-displayed: true
+  second-button-displayed: false
   second-button-label: Soli-Hackathon 2ème édition
   second-button-lien: /hackathon
