@@ -3,24 +3,24 @@
 
 #- reference : slide2
 #  titre: Mini-Hackathon 2022
-#  description: > 
+#  description: >
 #    Etes-vous passionné par les nouvelles technologies?
 #    Etes-vous tenté de participer à une compétition digitale?
 #    Rejoignez-nous le **25 Mai** prochain à Solicode Tanger!
 #  image: images/slides/hero-2.png
-#  dark: 
+#  dark:
 #  button-action-label: Informations et inscription
 #  button-action-lien: hackathon-2022
-- reference : slide1
+- reference: slide1
   titre: Inscription 2023-2024
-  description: > 
+  description: >
     Vous avez entre 18 et 35 ans?
     Vous êtes motivé, passionné par les technologies digitales?
     Inscrivez-vous maintenant!
   image: images/slides/slide1.jpg
   dark: dark
   button-action-label: Je m'inscris!
-  button-action-lien: https://system.solicode.co/inscription
+  button-action-lien: https://tangertech.info/solicode-tanger/view_solicode/
   second-button-displayed: false
   second-button-label: Soli-Hackathon 2ème édition
   second-button-lien: /hackathon
