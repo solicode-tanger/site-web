@@ -20,7 +20,7 @@
   image: images/slides/slide1.jpg
   dark: dark
   button-action-label: Je m'inscris!
-  button-action-lien: https://tangertech.info/solicode-tanger/view_solicode/
+  button-action-lien: http://solicodetanger.ma
   second-button-displayed: false
   second-button-label: Soli-Hackathon 2ème édition
   second-button-lien: /hackathon
