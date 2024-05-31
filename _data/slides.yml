@@ -20,7 +20,7 @@
   image: images/slides/slide1.jpg
   dark: dark
   button-action-label: Je m'inscris!
-  button-action-lien: http://solicodetanger.ma
+  button-action-lien: http://solicodetanger.ma/view_solicode/
   second-button-displayed: false
   second-button-label: Soli-Hackathon 2ème édition
   second-button-lien: /hackathon
