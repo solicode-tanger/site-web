@@ -12,7 +12,7 @@
 #  button-action-label: Informations et inscription
 #  button-action-lien: hackathon-2022
 - reference: slide1
-  titre: Inscription 2024-2025
+  titre: Inscription 2025-2026
   description: >
     Vous avez entre 18 et 35 ans?
     Vous êtes motivé, passionné par les technologies digitales?
@@ -20,7 +20,7 @@
   image: images/slides/slide1.jpg
   dark: dark
   button-action-label: Je m'inscris!
-  button-action-lien: http://solicodetanger.ma/view_solicode/
+  button-action-lien: http://inscription.solicode.co/VIEW_SOLICODE/
   second-button-displayed: false
   second-button-label: Soli-Hackathon 2ème édition
   second-button-lien: /hackathon
