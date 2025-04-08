@@ -8,7 +8,7 @@
     Inscrivez-vous maintenant!
   image: images/slides/slide1.jpg
   dark: dark
-  button-action-label: Je m'inscris!
+  button-action-label: Informations et inscription!
   button-action-lien: http://inscription.solicode.co/VIEW_SOLICODE/
   second-button-displayed: false
   second-button-label: Soli-Hackathon 2ème édition
@@ -20,9 +20,9 @@
    Sans prérequis scolaires;
     Âge entre 18 ans et 35 ans;
     Être passionné par le développement Digital;
-    Réussir le test de préselection en ligne:
+    Réussir le test de préselection en ligne;
     Réussir les entretiens de sélection
   image: images/slides/hero-2.png
   dark:
-  button-action-label: Informations et inscription
+  button-action-label: Informations et inscription!
   button-action-lien: http://inscription.solicode.co/VIEW_SOLICODE/
