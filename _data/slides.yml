@@ -1,16 +1,18 @@
 # Le champ description accepte le format Markdown
 # le button action peut être supprimer
 
-#- reference : slide2
-#  titre: Mini-Hackathon 2022
-#  description: >
-#    Etes-vous passionné par les nouvelles technologies?
-#    Etes-vous tenté de participer à une compétition digitale?
-#    Rejoignez-nous le **25 Mai** prochain à Solicode Tanger!
+- reference : slide2
+  titre: Condition d’accès
+  description: >
+   Sans prérequis scolaires
+    Âge entre 18 ans et 35 ans
+    Être passionné par le développement Digital
+    Réussir le test de préselection en ligne
+    Réussir les entretiens de sélection
 #  image: images/slides/hero-2.png
-#  dark:
-#  button-action-label: Informations et inscription
-#  button-action-lien: hackathon-2022
+  dark:
+  button-action-label: Informations et inscription
+  button-action-lien: hackathon-2022
 - reference: slide1
   titre: Inscription 2025-2026
   description: >
