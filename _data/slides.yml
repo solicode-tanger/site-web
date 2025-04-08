@@ -12,7 +12,7 @@
 #  image: images/slides/hero-2.png
   dark:
   button-action-label: Informations et inscription
-  button-action-lien: hackathon-2022
+  button-action-lien: http://inscription.solicode.co/VIEW_SOLICODE/
 - reference: slide1
   titre: Inscription 2025-2026
   description: >
