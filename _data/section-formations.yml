@@ -5,20 +5,27 @@ formations:
       Le développeur web réalise l'ensemble des fonctionnalités 
       techniques d'une application web.
       A l’issue de la formation, le stagiaire sera capable de :
-      Maquetter une application,
-      Réaliser une interface utilisateur web statique, responsive et adaptable,
-      Créer une base de données,
+      Maquetter une application;
+      Réaliser une interface utilisateur web statique, responsive et adaptable;
+      Créer une base de données;
       Préparer les composants d’accès aux données;
-      Programmer les scripts de traitement back-end et front-end d’une application web,
-      Réaliser une interface utilisateur avec une solution de gestion de contenu ou e-commerce,
-      Élaborer et mettre en œuvre des composants dans une application de gestion de contenu ou e-commerce.
+      Programmer les scripts de traitement back-end et front-end d’une application web;
+      Réaliser une interface utilisateur avec une solution de gestion de contenu ou e-commerce;
+      
     image: images/web_illustrations.png
     button-label: Plus d'informations
     button-lien: 
   - titre : Développement Mobile
     description: >
       Le développeur mobile effectue la réalisation technique et le développement 
-      informatique d'applications mobiles.
+      informatique d'applications mobiles: 
+      Maquetter une application mobile;
+      Manipuler une base de données;
+      Développer la partie back-end d’une application web ou web mobile;
+      Collaborer à la gestion d’un projet informatique et à l’organisation de l’environnement de développement;
+      Développer une application mobile native, avec Android et React Native;
+      Préparer et exécuter les plans de tests d’une application;
+      Préparer et exécuter le déploiement d’une application web et mobile.
     image: images/mobile_illustrations.png
     button-label: Plus d'informations
     button-lien: 
