@@ -2,13 +2,13 @@ titre: SOLICODE EN CHIFFRES
 chiffres:
   - label: Staff
     icone: icon-users
-    nombre: 12
+    nombre: 11
   - label: Places pédagogiques
     icone: icon-keyboard
-    nombre: 120
+    nombre: 100
   - label: Lauréats
     icone: icon-graduation-cap
-    nombre: 43
+    nombre: 260
   - label: Filières
     icone: icon-award
     nombre: 2
