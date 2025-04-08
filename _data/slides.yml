@@ -23,6 +23,6 @@
     Réussir le test de préselection en ligne;
     Réussir les entretiens de sélection
   image: images/slides/hero-2.png
-  dark: dark
+  dark: 
   button-action-label: Informations et inscription!
   button-action-lien: http://inscription.solicode.co/VIEW_SOLICODE/
